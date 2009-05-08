@@ -1,0 +1,157 @@
+{
+    IBClasses = (
+        {
+            CLASS = BookListArrayController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {listController = NSArrayController; }; 
+            SUPERCLASS = NSArrayController; 
+        }, 
+        {CLASS = BookListTableViewDelegate; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                browseFile = id; 
+                cancelQuickfill = id; 
+                clearSpotlightIndex = id; 
+                editSmartList = id; 
+                getCoverWindow = id; 
+                getInfoWindow = id; 
+                listQuickfill = id; 
+                newBook = id; 
+                newList = id; 
+                newSmartList = id; 
+                openFiles = id; 
+                preferences = id; 
+                quickfill = id; 
+                save = id; 
+                saveAction = id; 
+                saveSmartList = id; 
+                selectBooksTable = id; 
+                selectListsTable = id; 
+                trashFiles = id; 
+                updateBooksTable = id; 
+                updateSpotlightIndex = id; 
+                uploadFile = id; 
+                viewOnline = id; 
+            }; 
+            CLASS = BooksAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                authorsCombo = NSComboBox; 
+                bookArrayController = NSArrayController; 
+                booksTable = NSTableView; 
+                collectionArrayController = NSArrayController; 
+                coverWindow = NSWindow; 
+                detailsPane = WebView; 
+                editorsCombo = NSComboBox; 
+                enabledColumn = NSTableColumn; 
+                fileArrayController = NSArrayController; 
+                fileDescription = NSTextField; 
+                fileLocation = NSTextField; 
+                fileTitle = NSTextField; 
+                genreCombo = NSComboBox; 
+                illustratorsCombo = NSComboBox; 
+                imageBox = NSBox; 
+                imageView = NSImageView; 
+                infoWindow = NSWindow; 
+                leftView = NSSplitView; 
+                listsTable = NSTableView; 
+                mainWindow = NSWindow; 
+                pluginManager = PluginManager; 
+                prefFieldsTable = NSTableView; 
+                preferencesWindow = NSWindow; 
+                progressIndicator = NSProgressIndicator; 
+                progressText = NSTextField; 
+                progressView = NSWindow; 
+                publisherCombo = NSComboBox; 
+                quickfillProgress = NSProgressIndicator; 
+                quickfillResultsWindow = QuickfillSearchWindow; 
+                quickfillWindow = NSWindow; 
+                searchField = NSView; 
+                searchTextField = NSSearchField; 
+                selectedBook = NSObjectController; 
+                smartListEditorWindow = NSWindow; 
+                splitView = NSSplitView; 
+                translatorsCombo = NSComboBox; 
+                userFieldCombo = NSComboBox; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {exportFromMenuItem = id; }; 
+            CLASS = ExportMenuDelegate; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = ExportPluginInterface; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FieldsDataSource; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = HtmlPageBuilder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {importFromMenuItem = id; }; 
+            CLASS = ImportMenuDelegate; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = ImportPluginInterface; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = ListListArrayController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSArrayController; 
+        }, 
+        {CLASS = MainWindowTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            CLASS = PeopleArrayController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {lendingRecords = NSArrayController; mugshot = NSImageView; }; 
+            SUPERCLASS = NSArrayController; 
+        }, 
+        {
+            ACTIONS = {fetchOnlineList = id; installSelectedPlugin = id; toggleVisible = id; }; 
+            CLASS = PluginManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                arrayController = NSArrayController; 
+                pluginListTable = NSTableView; 
+                pluginManagerWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {doCancel = id; doSave = id; doSearch = id; }; 
+            CLASS = QuickfillSearchWindow; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                data = id; 
+                dataSource = NSPopUpButton; 
+                details = WebView; 
+                list = NSTableView; 
+                panel = NSPanel; 
+                quickfillResults = id; 
+                statusSpinner = id; 
+                statusText = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {checkForUpdates = id; }; 
+            CLASS = SUUpdater; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = SmartListRuleView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {field = NSPopUpButton; operation = NSPopUpButton; value = NSTextField; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            CLASS = SmartListWindowDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {joiner = id; rulesBox = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

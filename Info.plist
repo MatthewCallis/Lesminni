@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>Item</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Item</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>org.eludevisibility.ROM.Item</string>
+			</array>
+			<key>LSTypeIsPackage</key>
+			<false/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>Binary</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Lesminni</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Lesminni Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Lesminni Help</string>
+	<key>CFBundleIconFile</key>
+	<string>Lesminni</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.eludevisbility.Lesminni</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>ELUD</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSAppleScriptEnabled</key>
+	<string>YES</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>OSAScriptingDefinition</key>
+	<string>.sdef</string>
+	<key>SUFeedURL</key>
+	<string>http://eludevisibility.org/appcast.xml</string>
+	<key>SmartCrashReports_CompanyName</key>
+	<string>eludevisibility.org</string>
+	<key>SmartCrashReports_EmailTicket</key>
+	<string>SCR-CB89FEB471</string>
+</dict>
+</plist>

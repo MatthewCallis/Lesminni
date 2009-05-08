@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="44"
+   name=""
+   committed-date="2006-08-30T20:42:51.106736Z"
+   url="https://svn.sourceforge.net/svnroot/books-macosx/Books/Books.xcodeproj"
+   last-author="br284"
+   kind="dir"
+   uuid="4f8c4b94-ce0d-0410-8a93-94716ef3bdeb"
+   repos="https://svn.sourceforge.net/svnroot/books-macosx"
+   revision="45"/>
+<entry
+   committed-rev="44"
+   name="cjkarr.mode1"
+   text-time="2006-08-30T20:47:01.000000Z"
+   committed-date="2006-08-30T20:42:51.106736Z"
+   checksum="f71a906df7a582476e2d79f1ef90b4d3"
+   last-author="br284"
+   kind="file"
+   prop-time="2006-08-30T20:47:01.000000Z"/>
+<entry
+   committed-rev="44"
+   name="cjkarr.pbxuser"
+   text-time="2006-08-30T20:47:01.000000Z"
+   committed-date="2006-08-30T20:42:51.106736Z"
+   checksum="a557c6731975f608a560eac668532d4b"
+   last-author="br284"
+   kind="file"
+   prop-time="2006-08-30T20:47:01.000000Z"/>
+<entry
+   committed-rev="42"
+   name="project.pbxproj"
+   text-time="2006-08-30T20:47:01.000000Z"
+   committed-date="2006-08-24T19:45:59.790087Z"
+   checksum="9d6a2f1b482e4e143196668560851fc9"
+   last-author="br284"
+   kind="file"
+   prop-time="2006-08-30T20:47:01.000000Z"/>
+</wc-entries>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="22"
+   name=""
+   committed-date="2006-08-09T13:01:31.201307Z"
+   url="https://svn.sourceforge.net/svnroot/books-macosx/Books/English.lproj/MainMenu.nib"
+   last-author="br284"
+   kind="dir"
+   uuid="4f8c4b94-ce0d-0410-8a93-94716ef3bdeb"
+   repos="https://svn.sourceforge.net/svnroot/books-macosx"
+   revision="45"/>
+<entry
+   committed-rev="1"
+   name="info.nib"
+   text-time="2006-08-10T12:20:07.000000Z"
+   committed-date="2006-07-25T13:31:43.536022Z"
+   checksum="6e0a947607d75cb5a7c51137e3b9fbec"
+   last-author="br284"
+   kind="file"/>
+<entry
+   committed-rev="22"
+   name="keyedobjects.nib"
+   text-time="2006-08-10T12:20:36.000000Z"
+   committed-date="2006-08-09T13:01:31.201307Z"
+   checksum="ace0e4284a5b7d2af782f78d54873260"
+   last-author="br284"
+   kind="file"/>
+<entry
+   committed-rev="1"
+   name="classes.nib"
+   text-time="2006-08-10T12:20:07.000000Z"
+   committed-date="2006-07-25T13:31:43.536022Z"
+   checksum="f17f8762e6f80bda9abbdc95dc39fdeb"
+   last-author="br284"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="35"
+   name=""
+   committed-date="2006-08-20T02:44:20.871955Z"
+   url="https://svn.sourceforge.net/svnroot/books-macosx/Books/English.lproj"
+   last-author="br284"
+   kind="dir"
+   uuid="4f8c4b94-ce0d-0410-8a93-94716ef3bdeb"
+   repos="https://svn.sourceforge.net/svnroot/books-macosx"
+   revision="45"/>
+<entry
+   committed-rev="1"
+   name="InfoPlist.strings"
+   text-time="2006-07-28T00:12:20.000000Z"
+   committed-date="2006-07-25T13:31:43.536022Z"
+   checksum="d09e4610553b513fbc8a7870641fb499"
+   last-author="br284"
+   kind="file"
+   prop-time="2006-07-25T18:14:47.000000Z"/>
+<entry
+   name="MainMenu.nib"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="empty.html"
+   text-time="2006-07-28T00:16:08.000000Z"
+   committed-date="2006-07-25T13:31:43.536022Z"
+   checksum="fa7f47e1f1b34970d03fe43a497a1748"
+   last-author="br284"
+   kind="file"
+   prop-time="2006-07-25T18:14:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="MainMenu.strings"
+   text-time="2006-07-28T00:14:14.000000Z"
+   committed-date="2006-07-25T13:31:43.536022Z"
+   checksum="2a0627ac159ed9f540fbff0c4b53e0b4"
+   last-author="br284"
+   kind="file"
+   prop-time="2006-07-25T18:14:53.000000Z"/>
+<entry
+   name="Books Help"
+   kind="dir"/>
+<entry
+   committed-rev="12"
+   name="Credits.rtf"
+   text-time="2006-07-28T00:12:14.000000Z"
+   committed-date="2006-07-25T18:18:13.220008Z"
+   checksum="d7c3c21a8ab7a337e0e588e8473062db"
+   last-author="br284"
+   kind="file"
+   prop-time="2006-07-28T02:10:29.000000Z"/>
+<entry
+   committed-rev="35"
+   name="Localizable.strings"
+   text-time="2006-08-18T03:19:01.000000Z"
+   committed-date="2006-08-20T02:44:20.871955Z"
+   checksum="6c70f70f0a2780917a9b7bcdc957e2f8"
+   last-author="br284"
+   kind="file"
+   prop-time="2006-08-20T14:34:34.000000Z"/>
+<entry
+   committed-rev="1"
+   name="multiple.html"
+   text-time="2006-07-28T00:16:14.000000Z"
+   committed-date="2006-07-25T13:31:43.536022Z"
+   checksum="673481bf05363647276e1df9c3ccd54a"
+   last-author="br284"
+   kind="file"
+   prop-time="2006-07-25T18:14:56.000000Z"/>
+</wc-entries>

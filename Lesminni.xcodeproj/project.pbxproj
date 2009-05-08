@@ -1,0 +1,1336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38030ACE08F4A0BD00B2AC82 /* SmartListRuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38030ACD08F4A0BD00B2AC82 /* SmartListRuleView.m */; };
+		38030AD708F4A37A00B2AC82 /* SmartListWindowDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38030AD608F4A37A00B2AC82 /* SmartListWindowDelegate.m */; };
+		3816417D0ACC045900DBFC14 /* Lesminni_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* Lesminni_DataModel.xcdatamodel */; };
+		383DBEC90A6ABEA300685384 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 383DBEC80A6ABEA300685384 /* Credits.rtf */; };
+		385FDE0809045CB300C511B9 /* LesminniToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 385FDE0709045CB300C511B9 /* LesminniToolbarItem.m */; };
+		3892A6AB09013AF700FF72C8 /* SelectableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3892A6AA09013AF700FF72C8 /* SelectableTableView.m */; };
+		38A33A48090845FA00016FF0 /* ListManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A33A47090845FA00016FF0 /* ListManagedObject.m */; };
+		38CB899D08EF5761007981E6 /* SmartList.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CB899C08EF5761007981E6 /* SmartList.m */; };
+		38D0C90309057D8300672AA7 /* RomManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D0C90209057D8300672AA7 /* RomManagedObject.m */; };
+		38F5753108F745EB00119232 /* ListListArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F5753008F745EB00119232 /* ListListArrayController.m */; };
+		77C8280E06725ACE000B614F /* LesminniAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* LesminniAppDelegate.m */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		AC1A4FCD0C62387500C47D19 /* splitview-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1A4FCB0C62387500C47D19 /* splitview-bar.png */; };
+		AC1A4FCE0C62387500C47D19 /* splitview-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1A4FCC0C62387500C47D19 /* splitview-dot.png */; };
+		AC2E634D0C49C4500057E112 /* RomListArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E63490C49C4500057E112 /* RomListArrayController.m */; };
+		AC3CEE540C5D640200C76162 /* list-goomba.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3CEE510C5D640200C76162 /* list-goomba.png */; };
+		AC3CEE550C5D640200C76162 /* list-kirby.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3CEE520C5D640200C76162 /* list-kirby.png */; };
+		AC3CEE560C5D640200C76162 /* list-mario.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3CEE530C5D640200C76162 /* list-mario.png */; };
+		AC72DD510C615824007EB387 /* ContentSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC72DD4D0C615824007EB387 /* ContentSplitView.m */; };
+		ACB1125E0C628977008DA933 /* FDSReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB112460C628977008DA933 /* FDSReader.m */; };
+		ACB112600C628977008DA933 /* GameBoyReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB112480C628977008DA933 /* GameBoyReader.m */; };
+		ACB112620C628977008DA933 /* GBAReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1124A0C628977008DA933 /* GBAReader.m */; };
+		ACB112640C628977008DA933 /* N64Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1124C0C628977008DA933 /* N64Reader.m */; };
+		ACB112660C628977008DA933 /* NDSReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1124E0C628977008DA933 /* NDSReader.m */; };
+		ACB112680C628977008DA933 /* NintendoReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB112500C628977008DA933 /* NintendoReader.m */; };
+		ACB1126A0C628977008DA933 /* SuperNintendoReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB112520C628977008DA933 /* SuperNintendoReader.m */; };
+		ACB1126C0C628977008DA933 /* VirtualBoyReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB112540C628977008DA933 /* VirtualBoyReader.m */; };
+		ACB1126E0C628977008DA933 /* NSData_CRC.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB112560C628977008DA933 /* NSData_CRC.m */; };
+		ACB112700C628977008DA933 /* ParseRomDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB112580C628977008DA933 /* ParseRomDelegate.m */; };
+		ACB112720C628977008DA933 /* RomFile.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1125A0C628977008DA933 /* RomFile.m */; };
+		ACB112740C628977008DA933 /* RomFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1125C0C628977008DA933 /* RomFileReader.m */; };
+		ACB112760C628988008DA933 /* FFArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB112750C628988008DA933 /* FFArchive.framework */; };
+		ACB113130C628E50008DA933 /* FFArchive.framework in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = ACB112750C628988008DA933 /* FFArchive.framework */; };
+		ACB53F1F0C64015200DB5529 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB53F1E0C64015200DB5529 /* libcrypto.dylib */; };
+		ACB543D40C6613FB00DB5529 /* ListsTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB543D20C6613FB00DB5529 /* ListsTextCell.m */; };
+		ACC4119B0C60046200933288 /* list-cd.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC411960C60046200933288 /* list-cd.png */; };
+		ACC4119C0C60046200933288 /* list-favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC411970C60046200933288 /* list-favorite.png */; };
+		ACC4119D0C60046200933288 /* list-internet.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC411980C60046200933288 /* list-internet.png */; };
+		ACC4119E0C60046200933288 /* list-library.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC411990C60046200933288 /* list-library.png */; };
+		ACC4119F0C60046200933288 /* list-pack.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC4119A0C60046200933288 /* list-pack.png */; };
+		ACC411EF0C602A5800933288 /* ListsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC411EE0C602A5800933288 /* ListsTableView.m */; };
+		ACC4122D0C602FB400933288 /* KFSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC412290C602FB400933288 /* KFSplitView.m */; };
+		ACC412300C602FB400933288 /* ListsSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC4122C0C602FB400933288 /* ListsSplitView.m */; };
+		ACCC979C0E35450B00D24051 /* CopyNES.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCC979B0E35450B00D24051 /* CopyNES.m */; };
+		ACCC97A70E35460F00D24051 /* libftd2xx.0.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCC97A60E35460F00D24051 /* libftd2xx.0.1.0.dylib */; };
+		ACCC9A310E3568D700D24051 /* 103IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99AC0E3568D600D24051 /* 103IN1.BIN */; };
+		ACCC9A320E3568D700D24051 /* 115IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99AD0E3568D600D24051 /* 115IN1.BIN */; };
+		ACCC9A330E3568D700D24051 /* 117IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99AE0E3568D600D24051 /* 117IN1.BIN */; };
+		ACCC9A340E3568D700D24051 /* 11IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99AF0E3568D600D24051 /* 11IN1.BIN */; };
+		ACCC9A350E3568D700D24051 /* 150IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99B00E3568D600D24051 /* 150IN1.BIN */; };
+		ACCC9A360E3568D700D24051 /* 15IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99B10E3568D600D24051 /* 15IN1.BIN */; };
+		ACCC9A370E3568D700D24051 /* 16IN1A.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99B20E3568D600D24051 /* 16IN1A.BIN */; };
+		ACCC9A380E3568D700D24051 /* 1MIN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99B30E3568D600D24051 /* 1MIN1.BIN */; };
+		ACCC9A390E3568D700D24051 /* 1MIN1A.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99B40E3568D600D24051 /* 1MIN1A.BIN */; };
+		ACCC9A3A0E3568D700D24051 /* 20IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99B50E3568D600D24051 /* 20IN1.BIN */; };
+		ACCC9A3B0E3568D700D24051 /* 20IN1A.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99B60E3568D600D24051 /* 20IN1A.BIN */; };
+		ACCC9A3C0E3568D700D24051 /* 210IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99B70E3568D600D24051 /* 210IN1.BIN */; };
+		ACCC9A3D0E3568D700D24051 /* 255IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99B80E3568D600D24051 /* 255IN1.BIN */; };
+		ACCC9A3E0E3568D700D24051 /* 42IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99B90E3568D600D24051 /* 42IN1.BIN */; };
+		ACCC9A3F0E3568D700D24051 /* 4IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99BA0E3568D600D24051 /* 4IN1.BIN */; };
+		ACCC9A400E3568D700D24051 /* 52IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99BB0E3568D600D24051 /* 52IN1.BIN */; };
+		ACCC9A410E3568D700D24051 /* 63IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99BC0E3568D600D24051 /* 63IN1.BIN */; };
+		ACCC9A420E3568D700D24051 /* 700IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99BD0E3568D600D24051 /* 700IN1.BIN */; };
+		ACCC9A430E3568D700D24051 /* 74LS374N.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99BE0E3568D600D24051 /* 74LS374N.BIN */; };
+		ACCC9A440E3568D700D24051 /* 76IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99BF0E3568D600D24051 /* 76IN1.BIN */; };
+		ACCC9A450E3568D700D24051 /* 7IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99C00E3568D600D24051 /* 7IN1.BIN */; };
+		ACCC9A460E3568D700D24051 /* 7IN1X.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99C10E3568D600D24051 /* 7IN1X.BIN */; };
+		ACCC9A470E3568D700D24051 /* 800008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99C20E3568D600D24051 /* 800008.BIN */; };
+		ACCC9A480E3568D700D24051 /* 800042.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99C30E3568D600D24051 /* 800042.BIN */; };
+		ACCC9A490E3568D700D24051 /* 8259B.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99C40E3568D600D24051 /* 8259B.BIN */; };
+		ACCC9A4A0E3568D700D24051 /* 8259C.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99C50E3568D600D24051 /* 8259C.BIN */; };
+		ACCC9A4B0E3568D700D24051 /* 8259D.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99C60E3568D600D24051 /* 8259D.BIN */; };
+		ACCC9A4C0E3568D700D24051 /* 95IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99C70E3568D600D24051 /* 95IN1.BIN */; };
+		ACCC9A4D0E3568D700D24051 /* 999IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99C80E3568D600D24051 /* 999IN1.BIN */; };
+		ACCC9A4E0E3568D700D24051 /* A52.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99C90E3568D600D24051 /* A52.BIN */; };
+		ACCC9A4F0E3568D700D24051 /* ARK2.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99CA0E3568D600D24051 /* ARK2.BIN */; };
+		ACCC9A500E3568D700D24051 /* AXROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99CB0E3568D600D24051 /* AXROM.BIN */; };
+		ACCC9A510E3568D700D24051 /* BANKWTCH.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99CC0E3568D600D24051 /* BANKWTCH.BIN */; };
+		ACCC9A520E3568D700D24051 /* BIO.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99CD0E3568D600D24051 /* BIO.BIN */; };
+		ACCC9A530E3568D700D24051 /* BIO2.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99CE0E3568D600D24051 /* BIO2.BIN */; };
+		ACCC9A540E3568D700D24051 /* BNROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99CF0E3568D600D24051 /* BNROM.BIN */; };
+		ACCC9A550E3568D700D24051 /* CALTRON.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99D00E3568D600D24051 /* CALTRON.BIN */; };
+		ACCC9A560E3568D700D24051 /* CAMERIC2.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99D10E3568D600D24051 /* CAMERIC2.BIN */; };
+		ACCC9A570E3568D700D24051 /* CAMERICA.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99D20E3568D600D24051 /* CAMERICA.BIN */; };
+		ACCC9A580E3568D700D24051 /* CDREAMS.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99D30E3568D600D24051 /* CDREAMS.BIN */; };
+		ACCC9A590E3568D700D24051 /* CHEETAH.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99D40E3568D600D24051 /* CHEETAH.BIN */; };
+		ACCC9A5A0E3568D700D24051 /* CLEAR.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99D50E3568D600D24051 /* CLEAR.BIN */; };
+		ACCC9A5B0E3568D700D24051 /* CM017.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99D60E3568D600D24051 /* CM017.BIN */; };
+		ACCC9A5C0E3568D700D24051 /* CNRAM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99D70E3568D600D24051 /* CNRAM.BIN */; };
+		ACCC9A5D0E3568D700D24051 /* CNROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99D80E3568D600D24051 /* CNROM.BIN */; };
+		ACCC9A5E0E3568D700D24051 /* CONY1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99D90E3568D600D24051 /* CONY1.BIN */; };
+		ACCC9A5F0E3568D700D24051 /* CONY2.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99DA0E3568D600D24051 /* CONY2.BIN */; };
+		ACCC9A600E3568D700D24051 /* CPROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99DB0E3568D600D24051 /* CPROM.BIN */; };
+		ACCC9A610E3568D700D24051 /* DD2.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99DC0E3568D600D24051 /* DD2.BIN */; };
+		ACCC9A620E3568D700D24051 /* DISK.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99DD0E3568D600D24051 /* DISK.BIN */; };
+		ACCC9A630E3568D700D24051 /* EWJ2.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99DE0E3568D600D24051 /* EWJ2.BIN */; };
+		ACCC9A640E3568D700D24051 /* EXRAM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99DF0E3568D600D24051 /* EXRAM.BIN */; };
+		ACCC9A650E3568D700D24051 /* EXROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99E00E3568D600D24051 /* EXROM.BIN */; };
+		ACCC9A660E3568D700D24051 /* EXROMW.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99E10E3568D600D24051 /* EXROMW.BIN */; };
+		ACCC9A670E3568D700D24051 /* FAMILY.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99E20E3568D600D24051 /* FAMILY.BIN */; };
+		ACCC9A680E3568D700D24051 /* FME7.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99E30E3568D600D24051 /* FME7.BIN */; };
+		ACCC9A690E3568D700D24051 /* GARDN.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99E40E3568D600D24051 /* GARDN.BIN */; };
+		ACCC9A6A0E3568D700D24051 /* GARSET.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99E50E3568D600D24051 /* GARSET.BIN */; };
+		ACCC9A6B0E3568D700D24051 /* GARUP.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99E60E3568D600D24051 /* GARUP.BIN */; };
+		ACCC9A6C0E3568D700D24051 /* GIRLFGHT.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99E70E3568D600D24051 /* GIRLFGHT.BIN */; };
+		ACCC9A6D0E3568D700D24051 /* GNROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99E80E3568D600D24051 /* GNROM.BIN */; };
+		ACCC9A6E0E3568D700D24051 /* HIK.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99E90E3568D600D24051 /* HIK.BIN */; };
+		ACCC9A6F0E3568D700D24051 /* HIK4IN1B.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99EA0E3568D600D24051 /* HIK4IN1B.BIN */; };
+		ACCC9A700E3568D700D24051 /* HKRAM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99EB0E3568D600D24051 /* HKRAM.BIN */; };
+		ACCC9A710E3568D700D24051 /* HKROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99EC0E3568D600D24051 /* HKROM.BIN */; };
+		ACCC9A720E3568D700D24051 /* HKROMW.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99ED0E3568D600D24051 /* HKROMW.BIN */; };
+		ACCC9A730E3568D700D24051 /* JF09.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99EE0E3568D600D24051 /* JF09.BIN */; };
+		ACCC9A740E3568D700D24051 /* JOVIAL.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99EF0E3568D600D24051 /* JOVIAL.BIN */; };
+		ACCC9A750E3568D700D24051 /* K3966.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99F00E3568D600D24051 /* K3966.BIN */; };
+		ACCC9A760E3568D700D24051 /* MARIO.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99F10E3568D600D24051 /* MARIO.BIN */; };
+		ACCC9A770E3568D700D24051 /* MARIO15.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99F20E3568D600D24051 /* MARIO15.BIN */; };
+		ACCC9A780E3568D700D24051 /* MHROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99F30E3568D600D24051 /* MHROM.BIN */; };
+		ACCC9A790E3568D700D24051 /* MICROBUG.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99F40E3568D600D24051 /* MICROBUG.BIN */; };
+		ACCC9A7A0E3568D700D24051 /* MIMIC1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99F50E3568D600D24051 /* MIMIC1.BIN */; };
+		ACCC9A7B0E3568D700D24051 /* MIRROR.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99F60E3568D600D24051 /* MIRROR.BIN */; };
+		ACCC9A7C0E3568D700D24051 /* MMC5PLUG.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99F70E3568D600D24051 /* MMC5PLUG.BIN */; };
+		ACCC9A7D0E3568D700D24051 /* MONTY.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99F80E3568D600D24051 /* MONTY.BIN */; };
+		ACCC9A7E0E3568D700D24051 /* NAM109.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99F90E3568D600D24051 /* NAM109.BIN */; };
+		ACCC9A7F0E3568D700D24051 /* NAM118A.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99FA0E3568D600D24051 /* NAM118A.BIN */; };
+		ACCC9A800E3568D700D24051 /* NAMCO106.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99FB0E3568D600D24051 /* NAMCO106.BIN */; };
+		ACCC9A810E3568D700D24051 /* NESCOPY.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99FC0E3568D600D24051 /* NESCOPY.BIN */; };
+		ACCC9A820E3568D700D24051 /* NESCOPYN.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99FD0E3568D600D24051 /* NESCOPYN.BIN */; };
+		ACCC9A830E3568D700D24051 /* NINA001.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99FE0E3568D600D24051 /* NINA001.BIN */; };
+		ACCC9A840E3568D700D24051 /* NINA0X.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC99FF0E3568D600D24051 /* NINA0X.BIN */; };
+		ACCC9A850E3568D700D24051 /* NROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A000E3568D600D24051 /* NROM.BIN */; };
+		ACCC9A860E3568D700D24051 /* NROMX.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A010E3568D600D24051 /* NROMX.BIN */; };
+		ACCC9A870E3568D700D24051 /* NS03.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A020E3568D600D24051 /* NS03.BIN */; };
+		ACCC9A880E3568D700D24051 /* NWC.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A030E3568D600D24051 /* NWC.BIN */; };
+		ACCC9A890E3568D700D24051 /* PIR8.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A040E3568D600D24051 /* PIR8.BIN */; };
+		ACCC9A8A0E3568D700D24051 /* PIR8SMB3.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A050E3568D600D24051 /* PIR8SMB3.BIN */; };
+		ACCC9A8B0E3568D700D24051 /* POKEAHIN.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A060E3568D600D24051 /* POKEAHIN.BIN */; };
+		ACCC9A8C0E3568D700D24051 /* POWERJ.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A070E3568D600D24051 /* POWERJ.BIN */; };
+		ACCC9A8D0E3568D700D24051 /* PXROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A080E3568D600D24051 /* PXROM.BIN */; };
+		ACCC9A8E0E3568D700D24051 /* QJ.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A090E3568D600D24051 /* QJ.BIN */; };
+		ACCC9A8F0E3568D700D24051 /* R4IN1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A0A0E3568D600D24051 /* R4IN1.BIN */; };
+		ACCC9A900E3568D700D24051 /* RACER.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A0B0E3568D600D24051 /* RACER.BIN */; };
+		ACCC9A910E3568D700D24051 /* RAM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A0C0E3568D600D24051 /* RAM.BIN */; };
+		ACCC9A920E3568D700D24051 /* RAMBO1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A0D0E3568D600D24051 /* RAMBO1.BIN */; };
+		ACCC9A930E3568D700D24051 /* RDUMP1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A0E0E3568D600D24051 /* RDUMP1.BIN */; };
+		ACCC9A940E3568D700D24051 /* RDUMP2.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A0F0E3568D600D24051 /* RDUMP2.BIN */; };
+		ACCC9A950E3568D700D24051 /* REGTEST.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A100E3568D600D24051 /* REGTEST.BIN */; };
+		ACCC9A960E3568D700D24051 /* SACHEN2.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A110E3568D600D24051 /* SACHEN2.BIN */; };
+		ACCC9A970E3568D700D24051 /* SACHEN3.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A120E3568D600D24051 /* SACHEN3.BIN */; };
+		ACCC9A980E3568D700D24051 /* SACHEN4.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A130E3568D600D24051 /* SACHEN4.BIN */; };
+		ACCC9A990E3568D700D24051 /* SACHEN5.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A140E3568D600D24051 /* SACHEN5.BIN */; };
+		ACCC9A9A0E3568D700D24051 /* SACHEN6.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A150E3568D600D24051 /* SACHEN6.BIN */; };
+		ACCC9A9B0E3568D700D24051 /* SACHEN7.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A160E3568D600D24051 /* SACHEN7.BIN */; };
+		ACCC9A9C0E3568D700D24051 /* SACHEN8.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A170E3568D600D24051 /* SACHEN8.BIN */; };
+		ACCC9A9D0E3568D700D24051 /* SACHEN9.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A180E3568D600D24051 /* SACHEN9.BIN */; };
+		ACCC9A9E0E3568D700D24051 /* SDK.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A190E3568D600D24051 /* SDK.BIN */; };
+		ACCC9A9F0E3568D700D24051 /* SMB2JA.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A1A0E3568D600D24051 /* SMB2JA.BIN */; };
+		ACCC9AA00E3568D700D24051 /* SMB2JC.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A1B0E3568D600D24051 /* SMB2JC.BIN */; };
+		ACCC9AA10E3568D700D24051 /* STUDY.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A1C0E3568D600D24051 /* STUDY.BIN */; };
+		ACCC9AA20E3568D700D24051 /* SUNSFT4.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A1D0E3568D600D24051 /* SUNSFT4.BIN */; };
+		ACCC9AA30E3568D700D24051 /* SUPERJ.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A1E0E3568D600D24051 /* SUPERJ.BIN */; };
+		ACCC9AA40E3568D700D24051 /* SXRAM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A1F0E3568D600D24051 /* SXRAM.BIN */; };
+		ACCC9AA50E3568D700D24051 /* SXROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A200E3568D600D24051 /* SXROM.BIN */; };
+		ACCC9AA60E3568D700D24051 /* SXROMW.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A210E3568D600D24051 /* SXROMW.BIN */; };
+		ACCC9AA70E3568D700D24051 /* T3H53.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A220E3568D600D24051 /* T3H53.BIN */; };
+		ACCC9AA80E3568D700D24051 /* TEKKEN.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A230E3568D600D24051 /* TEKKEN.BIN */; };
+		ACCC9AA90E3568D700D24051 /* TEST.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A240E3568D600D24051 /* TEST.BIN */; };
+		ACCC9AAA0E3568D700D24051 /* TEST2.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A250E3568D600D24051 /* TEST2.BIN */; };
+		ACCC9AAB0E3568D700D24051 /* TQROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A260E3568D600D24051 /* TQROM.BIN */; };
+		ACCC9AAC0E3568D700D24051 /* TXRAM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A270E3568D600D24051 /* TXRAM.BIN */; };
+		ACCC9AAD0E3568D700D24051 /* TXROM1.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A280E3568D600D24051 /* TXROM1.BIN */; };
+		ACCC9AAE0E3568D700D24051 /* TXROMW.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A290E3568D600D24051 /* TXROMW.BIN */; };
+		ACCC9AAF0E3568D700D24051 /* UNROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A2A0E3568D600D24051 /* UNROM.BIN */; };
+		ACCC9AB00E3568D700D24051 /* UOROM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A2B0E3568D700D24051 /* UOROM.BIN */; };
+		ACCC9AB10E3568D700D24051 /* UXRAM.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A2C0E3568D700D24051 /* UXRAM.BIN */; };
+		ACCC9AB20E3568D700D24051 /* VRC3.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A2D0E3568D700D24051 /* VRC3.BIN */; };
+		ACCC9AB30E3568D700D24051 /* VRC4.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A2E0E3568D700D24051 /* VRC4.BIN */; };
+		ACCC9AB40E3568D700D24051 /* VRC6.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A2F0E3568D700D24051 /* VRC6.BIN */; };
+		ACCC9AB50E3568D700D24051 /* VRC7.BIN in Resources */ = {isa = PBXBuildFile; fileRef = ACCC9A300E3568D700D24051 /* VRC7.BIN */; };
+		ACDBE0910C56AAFB00799AA0 /* edit-smartlist.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDBE0870C56AAFB00799AA0 /* edit-smartlist.png */; };
+		ACDBE0920C56AAFB00799AA0 /* Lesminni.icns in Resources */ = {isa = PBXBuildFile; fileRef = ACDBE0880C56AAFB00799AA0 /* Lesminni.icns */; };
+		ACDBE0930C56AAFB00799AA0 /* list-small.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDBE0890C56AAFB00799AA0 /* list-small.png */; };
+		ACDBE0940C56AAFB00799AA0 /* new-list.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDBE08A0C56AAFB00799AA0 /* new-list.png */; };
+		ACDBE0950C56AAFB00799AA0 /* new-rom.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDBE08B0C56AAFB00799AA0 /* new-rom.png */; };
+		ACDBE0960C56AAFB00799AA0 /* new-smartlist.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDBE08C0C56AAFB00799AA0 /* new-smartlist.png */; };
+		ACDBE0970C56AAFB00799AA0 /* preferences.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDBE08D0C56AAFB00799AA0 /* preferences.png */; };
+		ACDBE0980C56AAFB00799AA0 /* remove-list.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDBE08E0C56AAFB00799AA0 /* remove-list.png */; };
+		ACDBE0990C56AAFB00799AA0 /* remove-rom.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDBE08F0C56AAFB00799AA0 /* remove-rom.png */; };
+		ACDBE09A0C56AAFB00799AA0 /* smartlist-small.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDBE0900C56AAFB00799AA0 /* smartlist-small.png */; };
+		ACDBE0A30C56ABE600799AA0 /* ThreadWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDBE0A10C56ABE600799AA0 /* ThreadWorker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		383291510A03F07700C98833 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Lesminni.app/Contents/Library/Spotlight;
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB1130D0C628E21008DA933 /* Copy Bundle Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ACB113130C628E50008DA933 /* FFArchive.framework in Copy Bundle Frameworks */,
+			);
+			name = "Copy Bundle Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Lesminni_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesminni_Prefix.pch; sourceTree = "<group>"; };
+		38030ACC08F4A0BD00B2AC82 /* SmartListRuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartListRuleView.h; sourceTree = "<group>"; };
+		38030ACD08F4A0BD00B2AC82 /* SmartListRuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartListRuleView.m; sourceTree = "<group>"; };
+		38030AD508F4A37A00B2AC82 /* SmartListWindowDelegate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SmartListWindowDelegate.h; sourceTree = "<group>"; };
+		38030AD608F4A37A00B2AC82 /* SmartListWindowDelegate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SmartListWindowDelegate.m; sourceTree = "<group>"; };
+		385FDE0609045CB300C511B9 /* LesminniToolbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LesminniToolbarItem.h; sourceTree = "<group>"; };
+		385FDE0709045CB300C511B9 /* LesminniToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LesminniToolbarItem.m; sourceTree = "<group>"; };
+		3892A6A909013AF700FF72C8 /* SelectableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectableTableView.h; sourceTree = "<group>"; };
+		3892A6AA09013AF700FF72C8 /* SelectableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectableTableView.m; sourceTree = "<group>"; };
+		38A33A46090845FA00016FF0 /* ListManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListManagedObject.h; sourceTree = "<group>"; };
+		38A33A47090845FA00016FF0 /* ListManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListManagedObject.m; sourceTree = "<group>"; };
+		38CB899B08EF5761007981E6 /* SmartList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartList.h; sourceTree = "<group>"; };
+		38CB899C08EF5761007981E6 /* SmartList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartList.m; sourceTree = "<group>"; };
+		38D0C90109057D8300672AA7 /* RomManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomManagedObject.h; sourceTree = "<group>"; };
+		38D0C90209057D8300672AA7 /* RomManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RomManagedObject.m; sourceTree = "<group>"; };
+		38EDC7EE08EADEC400414B3D /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		38F5752F08F745EB00119232 /* ListListArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListListArrayController.h; sourceTree = "<group>"; };
+		38F5753008F745EB00119232 /* ListListArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListListArrayController.m; sourceTree = "<group>"; };
+		770B37EC0679A11B001EADE2 /* Lesminni_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Lesminni_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* LesminniAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LesminniAppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* LesminniAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LesminniAppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Lesminni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesminni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1A4FCB0C62387500C47D19 /* splitview-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splitview-bar.png"; path = "Resources/splitview-bar.png"; sourceTree = "<group>"; };
+		AC1A4FCC0C62387500C47D19 /* splitview-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splitview-dot.png"; path = "Resources/splitview-dot.png"; sourceTree = "<group>"; };
+		AC2E63480C49C4500057E112 /* RomListArrayController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RomListArrayController.h; sourceTree = "<group>"; };
+		AC2E63490C49C4500057E112 /* RomListArrayController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RomListArrayController.m; sourceTree = "<group>"; };
+		AC3CEE510C5D640200C76162 /* list-goomba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-goomba.png"; path = "Resources/list-goomba.png"; sourceTree = "<group>"; };
+		AC3CEE520C5D640200C76162 /* list-kirby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-kirby.png"; path = "Resources/list-kirby.png"; sourceTree = "<group>"; };
+		AC3CEE530C5D640200C76162 /* list-mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-mario.png"; path = "Resources/list-mario.png"; sourceTree = "<group>"; };
+		AC72DD4C0C615824007EB387 /* ContentSplitView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ContentSplitView.h; sourceTree = SOURCE_ROOT; };
+		AC72DD4D0C615824007EB387 /* ContentSplitView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ContentSplitView.m; sourceTree = SOURCE_ROOT; };
+		ACB112450C628977008DA933 /* FDSReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FDSReader.h; sourceTree = "<group>"; };
+		ACB112460C628977008DA933 /* FDSReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FDSReader.m; sourceTree = "<group>"; };
+		ACB112470C628977008DA933 /* GameBoyReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GameBoyReader.h; sourceTree = "<group>"; };
+		ACB112480C628977008DA933 /* GameBoyReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GameBoyReader.m; sourceTree = "<group>"; };
+		ACB112490C628977008DA933 /* GBAReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GBAReader.h; sourceTree = "<group>"; };
+		ACB1124A0C628977008DA933 /* GBAReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GBAReader.m; sourceTree = "<group>"; };
+		ACB1124B0C628977008DA933 /* N64Reader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = N64Reader.h; sourceTree = "<group>"; };
+		ACB1124C0C628977008DA933 /* N64Reader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = N64Reader.m; sourceTree = "<group>"; };
+		ACB1124D0C628977008DA933 /* NDSReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NDSReader.h; sourceTree = "<group>"; };
+		ACB1124E0C628977008DA933 /* NDSReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NDSReader.m; sourceTree = "<group>"; };
+		ACB1124F0C628977008DA933 /* NintendoReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NintendoReader.h; sourceTree = "<group>"; };
+		ACB112500C628977008DA933 /* NintendoReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NintendoReader.m; sourceTree = "<group>"; };
+		ACB112510C628977008DA933 /* SuperNintendoReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SuperNintendoReader.h; sourceTree = "<group>"; };
+		ACB112520C628977008DA933 /* SuperNintendoReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SuperNintendoReader.m; sourceTree = "<group>"; };
+		ACB112530C628977008DA933 /* VirtualBoyReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = VirtualBoyReader.h; sourceTree = "<group>"; };
+		ACB112540C628977008DA933 /* VirtualBoyReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = VirtualBoyReader.m; sourceTree = "<group>"; };
+		ACB112550C628977008DA933 /* NSData_CRC.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSData_CRC.h; sourceTree = "<group>"; };
+		ACB112560C628977008DA933 /* NSData_CRC.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NSData_CRC.m; sourceTree = "<group>"; };
+		ACB112570C628977008DA933 /* ParseRomDelegate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ParseRomDelegate.h; sourceTree = "<group>"; };
+		ACB112580C628977008DA933 /* ParseRomDelegate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ParseRomDelegate.m; sourceTree = "<group>"; };
+		ACB112590C628977008DA933 /* RomFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RomFile.h; sourceTree = "<group>"; };
+		ACB1125A0C628977008DA933 /* RomFile.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RomFile.m; sourceTree = "<group>"; };
+		ACB1125B0C628977008DA933 /* RomFileReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RomFileReader.h; sourceTree = "<group>"; };
+		ACB1125C0C628977008DA933 /* RomFileReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RomFileReader.m; sourceTree = "<group>"; };
+		ACB112750C628988008DA933 /* FFArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FFArchive.framework; sourceTree = "<group>"; };
+		ACB53F1E0C64015200DB5529 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = /usr/lib/libcrypto.dylib; sourceTree = "<absolute>"; };
+		ACB543D10C6613FB00DB5529 /* ListsTextCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ListsTextCell.h; sourceTree = SOURCE_ROOT; };
+		ACB543D20C6613FB00DB5529 /* ListsTextCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ListsTextCell.m; sourceTree = SOURCE_ROOT; };
+		ACC411960C60046200933288 /* list-cd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-cd.png"; path = "Resources/list-cd.png"; sourceTree = "<group>"; };
+		ACC411970C60046200933288 /* list-favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-favorite.png"; path = "Resources/list-favorite.png"; sourceTree = "<group>"; };
+		ACC411980C60046200933288 /* list-internet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-internet.png"; path = "Resources/list-internet.png"; sourceTree = "<group>"; };
+		ACC411990C60046200933288 /* list-library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-library.png"; path = "Resources/list-library.png"; sourceTree = "<group>"; };
+		ACC4119A0C60046200933288 /* list-pack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-pack.png"; path = "Resources/list-pack.png"; sourceTree = "<group>"; };
+		ACC411EE0C602A5800933288 /* ListsTableView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ListsTableView.m; sourceTree = "<group>"; };
+		ACC411F40C602A6E00933288 /* ListsTableView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ListsTableView.h; sourceTree = "<group>"; };
+		ACC412290C602FB400933288 /* KFSplitView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = KFSplitView.m; sourceTree = "<group>"; };
+		ACC4122A0C602FB400933288 /* ListsSplitView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ListsSplitView.h; sourceTree = "<group>"; };
+		ACC4122B0C602FB400933288 /* KFSplitView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = KFSplitView.h; sourceTree = "<group>"; };
+		ACC4122C0C602FB400933288 /* ListsSplitView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ListsSplitView.m; sourceTree = "<group>"; };
+		ACCC979A0E35450B00D24051 /* CopyNES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyNES.h; sourceTree = "<group>"; };
+		ACCC979B0E35450B00D24051 /* CopyNES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyNES.m; sourceTree = "<group>"; };
+		ACCC97A20E3545ED00D24051 /* ftd2xx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftd2xx.h; sourceTree = "<group>"; };
+		ACCC97A60E35460F00D24051 /* libftd2xx.0.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libftd2xx.0.1.0.dylib; sourceTree = "<group>"; };
+		ACCC97CC0E35471F00D24051 /* WinTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinTypes.h; sourceTree = "<group>"; };
+		ACCC99AC0E3568D600D24051 /* 103IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 103IN1.BIN; sourceTree = "<group>"; };
+		ACCC99AD0E3568D600D24051 /* 115IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 115IN1.BIN; sourceTree = "<group>"; };
+		ACCC99AE0E3568D600D24051 /* 117IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 117IN1.BIN; sourceTree = "<group>"; };
+		ACCC99AF0E3568D600D24051 /* 11IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 11IN1.BIN; sourceTree = "<group>"; };
+		ACCC99B00E3568D600D24051 /* 150IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 150IN1.BIN; sourceTree = "<group>"; };
+		ACCC99B10E3568D600D24051 /* 15IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 15IN1.BIN; sourceTree = "<group>"; };
+		ACCC99B20E3568D600D24051 /* 16IN1A.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 16IN1A.BIN; sourceTree = "<group>"; };
+		ACCC99B30E3568D600D24051 /* 1MIN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 1MIN1.BIN; sourceTree = "<group>"; };
+		ACCC99B40E3568D600D24051 /* 1MIN1A.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 1MIN1A.BIN; sourceTree = "<group>"; };
+		ACCC99B50E3568D600D24051 /* 20IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 20IN1.BIN; sourceTree = "<group>"; };
+		ACCC99B60E3568D600D24051 /* 20IN1A.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 20IN1A.BIN; sourceTree = "<group>"; };
+		ACCC99B70E3568D600D24051 /* 210IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 210IN1.BIN; sourceTree = "<group>"; };
+		ACCC99B80E3568D600D24051 /* 255IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 255IN1.BIN; sourceTree = "<group>"; };
+		ACCC99B90E3568D600D24051 /* 42IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 42IN1.BIN; sourceTree = "<group>"; };
+		ACCC99BA0E3568D600D24051 /* 4IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 4IN1.BIN; sourceTree = "<group>"; };
+		ACCC99BB0E3568D600D24051 /* 52IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 52IN1.BIN; sourceTree = "<group>"; };
+		ACCC99BC0E3568D600D24051 /* 63IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 63IN1.BIN; sourceTree = "<group>"; };
+		ACCC99BD0E3568D600D24051 /* 700IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 700IN1.BIN; sourceTree = "<group>"; };
+		ACCC99BE0E3568D600D24051 /* 74LS374N.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 74LS374N.BIN; sourceTree = "<group>"; };
+		ACCC99BF0E3568D600D24051 /* 76IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 76IN1.BIN; sourceTree = "<group>"; };
+		ACCC99C00E3568D600D24051 /* 7IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 7IN1.BIN; sourceTree = "<group>"; };
+		ACCC99C10E3568D600D24051 /* 7IN1X.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 7IN1X.BIN; sourceTree = "<group>"; };
+		ACCC99C20E3568D600D24051 /* 800008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 800008.BIN; sourceTree = "<group>"; };
+		ACCC99C30E3568D600D24051 /* 800042.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 800042.BIN; sourceTree = "<group>"; };
+		ACCC99C40E3568D600D24051 /* 8259B.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 8259B.BIN; sourceTree = "<group>"; };
+		ACCC99C50E3568D600D24051 /* 8259C.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 8259C.BIN; sourceTree = "<group>"; };
+		ACCC99C60E3568D600D24051 /* 8259D.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 8259D.BIN; sourceTree = "<group>"; };
+		ACCC99C70E3568D600D24051 /* 95IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 95IN1.BIN; sourceTree = "<group>"; };
+		ACCC99C80E3568D600D24051 /* 999IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 999IN1.BIN; sourceTree = "<group>"; };
+		ACCC99C90E3568D600D24051 /* A52.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = A52.BIN; sourceTree = "<group>"; };
+		ACCC99CA0E3568D600D24051 /* ARK2.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = ARK2.BIN; sourceTree = "<group>"; };
+		ACCC99CB0E3568D600D24051 /* AXROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = AXROM.BIN; sourceTree = "<group>"; };
+		ACCC99CC0E3568D600D24051 /* BANKWTCH.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = BANKWTCH.BIN; sourceTree = "<group>"; };
+		ACCC99CD0E3568D600D24051 /* BIO.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = BIO.BIN; sourceTree = "<group>"; };
+		ACCC99CE0E3568D600D24051 /* BIO2.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = BIO2.BIN; sourceTree = "<group>"; };
+		ACCC99CF0E3568D600D24051 /* BNROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = BNROM.BIN; sourceTree = "<group>"; };
+		ACCC99D00E3568D600D24051 /* CALTRON.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CALTRON.BIN; sourceTree = "<group>"; };
+		ACCC99D10E3568D600D24051 /* CAMERIC2.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CAMERIC2.BIN; sourceTree = "<group>"; };
+		ACCC99D20E3568D600D24051 /* CAMERICA.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CAMERICA.BIN; sourceTree = "<group>"; };
+		ACCC99D30E3568D600D24051 /* CDREAMS.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CDREAMS.BIN; sourceTree = "<group>"; };
+		ACCC99D40E3568D600D24051 /* CHEETAH.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CHEETAH.BIN; sourceTree = "<group>"; };
+		ACCC99D50E3568D600D24051 /* CLEAR.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CLEAR.BIN; sourceTree = "<group>"; };
+		ACCC99D60E3568D600D24051 /* CM017.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CM017.BIN; sourceTree = "<group>"; };
+		ACCC99D70E3568D600D24051 /* CNRAM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CNRAM.BIN; sourceTree = "<group>"; };
+		ACCC99D80E3568D600D24051 /* CNROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CNROM.BIN; sourceTree = "<group>"; };
+		ACCC99D90E3568D600D24051 /* CONY1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CONY1.BIN; sourceTree = "<group>"; };
+		ACCC99DA0E3568D600D24051 /* CONY2.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CONY2.BIN; sourceTree = "<group>"; };
+		ACCC99DB0E3568D600D24051 /* CPROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CPROM.BIN; sourceTree = "<group>"; };
+		ACCC99DC0E3568D600D24051 /* DD2.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DD2.BIN; sourceTree = "<group>"; };
+		ACCC99DD0E3568D600D24051 /* DISK.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DISK.BIN; sourceTree = "<group>"; };
+		ACCC99DE0E3568D600D24051 /* EWJ2.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = EWJ2.BIN; sourceTree = "<group>"; };
+		ACCC99DF0E3568D600D24051 /* EXRAM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = EXRAM.BIN; sourceTree = "<group>"; };
+		ACCC99E00E3568D600D24051 /* EXROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = EXROM.BIN; sourceTree = "<group>"; };
+		ACCC99E10E3568D600D24051 /* EXROMW.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = EXROMW.BIN; sourceTree = "<group>"; };
+		ACCC99E20E3568D600D24051 /* FAMILY.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = FAMILY.BIN; sourceTree = "<group>"; };
+		ACCC99E30E3568D600D24051 /* FME7.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = FME7.BIN; sourceTree = "<group>"; };
+		ACCC99E40E3568D600D24051 /* GARDN.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GARDN.BIN; sourceTree = "<group>"; };
+		ACCC99E50E3568D600D24051 /* GARSET.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GARSET.BIN; sourceTree = "<group>"; };
+		ACCC99E60E3568D600D24051 /* GARUP.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GARUP.BIN; sourceTree = "<group>"; };
+		ACCC99E70E3568D600D24051 /* GIRLFGHT.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GIRLFGHT.BIN; sourceTree = "<group>"; };
+		ACCC99E80E3568D600D24051 /* GNROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GNROM.BIN; sourceTree = "<group>"; };
+		ACCC99E90E3568D600D24051 /* HIK.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = HIK.BIN; sourceTree = "<group>"; };
+		ACCC99EA0E3568D600D24051 /* HIK4IN1B.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = HIK4IN1B.BIN; sourceTree = "<group>"; };
+		ACCC99EB0E3568D600D24051 /* HKRAM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = HKRAM.BIN; sourceTree = "<group>"; };
+		ACCC99EC0E3568D600D24051 /* HKROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = HKROM.BIN; sourceTree = "<group>"; };
+		ACCC99ED0E3568D600D24051 /* HKROMW.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = HKROMW.BIN; sourceTree = "<group>"; };
+		ACCC99EE0E3568D600D24051 /* JF09.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = JF09.BIN; sourceTree = "<group>"; };
+		ACCC99EF0E3568D600D24051 /* JOVIAL.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = JOVIAL.BIN; sourceTree = "<group>"; };
+		ACCC99F00E3568D600D24051 /* K3966.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = K3966.BIN; sourceTree = "<group>"; };
+		ACCC99F10E3568D600D24051 /* MARIO.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = MARIO.BIN; sourceTree = "<group>"; };
+		ACCC99F20E3568D600D24051 /* MARIO15.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = MARIO15.BIN; sourceTree = "<group>"; };
+		ACCC99F30E3568D600D24051 /* MHROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = MHROM.BIN; sourceTree = "<group>"; };
+		ACCC99F40E3568D600D24051 /* MICROBUG.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = MICROBUG.BIN; sourceTree = "<group>"; };
+		ACCC99F50E3568D600D24051 /* MIMIC1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = MIMIC1.BIN; sourceTree = "<group>"; };
+		ACCC99F60E3568D600D24051 /* MIRROR.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = MIRROR.BIN; sourceTree = "<group>"; };
+		ACCC99F70E3568D600D24051 /* MMC5PLUG.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = MMC5PLUG.BIN; sourceTree = "<group>"; };
+		ACCC99F80E3568D600D24051 /* MONTY.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = MONTY.BIN; sourceTree = "<group>"; };
+		ACCC99F90E3568D600D24051 /* NAM109.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = NAM109.BIN; sourceTree = "<group>"; };
+		ACCC99FA0E3568D600D24051 /* NAM118A.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = NAM118A.BIN; sourceTree = "<group>"; };
+		ACCC99FB0E3568D600D24051 /* NAMCO106.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = NAMCO106.BIN; sourceTree = "<group>"; };
+		ACCC99FC0E3568D600D24051 /* NESCOPY.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = NESCOPY.BIN; sourceTree = "<group>"; };
+		ACCC99FD0E3568D600D24051 /* NESCOPYN.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = NESCOPYN.BIN; sourceTree = "<group>"; };
+		ACCC99FE0E3568D600D24051 /* NINA001.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = NINA001.BIN; sourceTree = "<group>"; };
+		ACCC99FF0E3568D600D24051 /* NINA0X.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = NINA0X.BIN; sourceTree = "<group>"; };
+		ACCC9A000E3568D600D24051 /* NROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = NROM.BIN; sourceTree = "<group>"; };
+		ACCC9A010E3568D600D24051 /* NROMX.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = NROMX.BIN; sourceTree = "<group>"; };
+		ACCC9A020E3568D600D24051 /* NS03.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = NS03.BIN; sourceTree = "<group>"; };
+		ACCC9A030E3568D600D24051 /* NWC.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = NWC.BIN; sourceTree = "<group>"; };
+		ACCC9A040E3568D600D24051 /* PIR8.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = PIR8.BIN; sourceTree = "<group>"; };
+		ACCC9A050E3568D600D24051 /* PIR8SMB3.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = PIR8SMB3.BIN; sourceTree = "<group>"; };
+		ACCC9A060E3568D600D24051 /* POKEAHIN.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = POKEAHIN.BIN; sourceTree = "<group>"; };
+		ACCC9A070E3568D600D24051 /* POWERJ.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = POWERJ.BIN; sourceTree = "<group>"; };
+		ACCC9A080E3568D600D24051 /* PXROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = PXROM.BIN; sourceTree = "<group>"; };
+		ACCC9A090E3568D600D24051 /* QJ.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = QJ.BIN; sourceTree = "<group>"; };
+		ACCC9A0A0E3568D600D24051 /* R4IN1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = R4IN1.BIN; sourceTree = "<group>"; };
+		ACCC9A0B0E3568D600D24051 /* RACER.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = RACER.BIN; sourceTree = "<group>"; };
+		ACCC9A0C0E3568D600D24051 /* RAM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = RAM.BIN; sourceTree = "<group>"; };
+		ACCC9A0D0E3568D600D24051 /* RAMBO1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = RAMBO1.BIN; sourceTree = "<group>"; };
+		ACCC9A0E0E3568D600D24051 /* RDUMP1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = RDUMP1.BIN; sourceTree = "<group>"; };
+		ACCC9A0F0E3568D600D24051 /* RDUMP2.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = RDUMP2.BIN; sourceTree = "<group>"; };
+		ACCC9A100E3568D600D24051 /* REGTEST.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = REGTEST.BIN; sourceTree = "<group>"; };
+		ACCC9A110E3568D600D24051 /* SACHEN2.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SACHEN2.BIN; sourceTree = "<group>"; };
+		ACCC9A120E3568D600D24051 /* SACHEN3.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SACHEN3.BIN; sourceTree = "<group>"; };
+		ACCC9A130E3568D600D24051 /* SACHEN4.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SACHEN4.BIN; sourceTree = "<group>"; };
+		ACCC9A140E3568D600D24051 /* SACHEN5.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SACHEN5.BIN; sourceTree = "<group>"; };
+		ACCC9A150E3568D600D24051 /* SACHEN6.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SACHEN6.BIN; sourceTree = "<group>"; };
+		ACCC9A160E3568D600D24051 /* SACHEN7.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SACHEN7.BIN; sourceTree = "<group>"; };
+		ACCC9A170E3568D600D24051 /* SACHEN8.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SACHEN8.BIN; sourceTree = "<group>"; };
+		ACCC9A180E3568D600D24051 /* SACHEN9.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SACHEN9.BIN; sourceTree = "<group>"; };
+		ACCC9A190E3568D600D24051 /* SDK.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SDK.BIN; sourceTree = "<group>"; };
+		ACCC9A1A0E3568D600D24051 /* SMB2JA.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SMB2JA.BIN; sourceTree = "<group>"; };
+		ACCC9A1B0E3568D600D24051 /* SMB2JC.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SMB2JC.BIN; sourceTree = "<group>"; };
+		ACCC9A1C0E3568D600D24051 /* STUDY.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = STUDY.BIN; sourceTree = "<group>"; };
+		ACCC9A1D0E3568D600D24051 /* SUNSFT4.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SUNSFT4.BIN; sourceTree = "<group>"; };
+		ACCC9A1E0E3568D600D24051 /* SUPERJ.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SUPERJ.BIN; sourceTree = "<group>"; };
+		ACCC9A1F0E3568D600D24051 /* SXRAM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SXRAM.BIN; sourceTree = "<group>"; };
+		ACCC9A200E3568D600D24051 /* SXROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SXROM.BIN; sourceTree = "<group>"; };
+		ACCC9A210E3568D600D24051 /* SXROMW.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SXROMW.BIN; sourceTree = "<group>"; };
+		ACCC9A220E3568D600D24051 /* T3H53.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = T3H53.BIN; sourceTree = "<group>"; };
+		ACCC9A230E3568D600D24051 /* TEKKEN.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = TEKKEN.BIN; sourceTree = "<group>"; };
+		ACCC9A240E3568D600D24051 /* TEST.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = TEST.BIN; sourceTree = "<group>"; };
+		ACCC9A250E3568D600D24051 /* TEST2.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = TEST2.BIN; sourceTree = "<group>"; };
+		ACCC9A260E3568D600D24051 /* TQROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = TQROM.BIN; sourceTree = "<group>"; };
+		ACCC9A270E3568D600D24051 /* TXRAM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = TXRAM.BIN; sourceTree = "<group>"; };
+		ACCC9A280E3568D600D24051 /* TXROM1.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = TXROM1.BIN; sourceTree = "<group>"; };
+		ACCC9A290E3568D600D24051 /* TXROMW.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = TXROMW.BIN; sourceTree = "<group>"; };
+		ACCC9A2A0E3568D600D24051 /* UNROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = UNROM.BIN; sourceTree = "<group>"; };
+		ACCC9A2B0E3568D700D24051 /* UOROM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = UOROM.BIN; sourceTree = "<group>"; };
+		ACCC9A2C0E3568D700D24051 /* UXRAM.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = UXRAM.BIN; sourceTree = "<group>"; };
+		ACCC9A2D0E3568D700D24051 /* VRC3.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = VRC3.BIN; sourceTree = "<group>"; };
+		ACCC9A2E0E3568D700D24051 /* VRC4.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = VRC4.BIN; sourceTree = "<group>"; };
+		ACCC9A2F0E3568D700D24051 /* VRC6.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = VRC6.BIN; sourceTree = "<group>"; };
+		ACCC9A300E3568D700D24051 /* VRC7.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = VRC7.BIN; sourceTree = "<group>"; };
+		ACDBE0870C56AAFB00799AA0 /* edit-smartlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "edit-smartlist.png"; path = "Resources/edit-smartlist.png"; sourceTree = "<group>"; };
+		ACDBE0880C56AAFB00799AA0 /* Lesminni.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Lesminni.icns; path = Resources/Lesminni.icns; sourceTree = "<group>"; };
+		ACDBE0890C56AAFB00799AA0 /* list-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-small.png"; path = "Resources/list-small.png"; sourceTree = "<group>"; };
+		ACDBE08A0C56AAFB00799AA0 /* new-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "new-list.png"; path = "Resources/new-list.png"; sourceTree = "<group>"; };
+		ACDBE08B0C56AAFB00799AA0 /* new-rom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "new-rom.png"; path = "Resources/new-rom.png"; sourceTree = "<group>"; };
+		ACDBE08C0C56AAFB00799AA0 /* new-smartlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "new-smartlist.png"; path = "Resources/new-smartlist.png"; sourceTree = "<group>"; };
+		ACDBE08D0C56AAFB00799AA0 /* preferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = preferences.png; path = Resources/preferences.png; sourceTree = "<group>"; };
+		ACDBE08E0C56AAFB00799AA0 /* remove-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "remove-list.png"; path = "Resources/remove-list.png"; sourceTree = "<group>"; };
+		ACDBE08F0C56AAFB00799AA0 /* remove-rom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "remove-rom.png"; path = "Resources/remove-rom.png"; sourceTree = "<group>"; };
+		ACDBE0900C56AAFB00799AA0 /* smartlist-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smartlist-small.png"; path = "Resources/smartlist-small.png"; sourceTree = "<group>"; };
+		ACDBE0A00C56ABE600799AA0 /* ThreadWorker.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ThreadWorker.h; sourceTree = "<group>"; };
+		ACDBE0A10C56ABE600799AA0 /* ThreadWorker.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ThreadWorker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				ACB112760C628988008DA933 /* FFArchive.framework in Frameworks */,
+				ACB53F1F0C64015200DB5529 /* libcrypto.dylib in Frameworks */,
+				ACCC97A70E35460F00D24051 /* libftd2xx.0.1.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ACB112430C628977008DA933 /* ROM Parser */,
+				38A339AF09080C5700016FF0 /* CoreData Objects */,
+				38F5751D08F7420F00119232 /* Array Controllers */,
+				ACDBE09B0C56AB1F00799AA0 /* Views */,
+				77C8280B06725ACE000B614F /* LesminniAppDelegate.h */,
+				77C8280C06725ACE000B614F /* LesminniAppDelegate.m */,
+				ACDBE0A00C56ABE600799AA0 /* ThreadWorker.h */,
+				ACDBE0A10C56ABE600799AA0 /* ThreadWorker.m */,
+				ACCC97A30E3545F300D24051 /* CopyNES */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC97A60E35460F00D24051 /* libftd2xx.0.1.0.dylib */,
+				ACB112750C628988008DA933 /* FFArchive.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACB53F1E0C64015200DB5529 /* libcrypto.dylib */,
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Lesminni.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Lesminni */ = {
+			isa = PBXGroup;
+			children = (
+				7756732906782D8800D1FEB8 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Lesminni;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Lesminni_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC99AB0E3568D600D24051 /* Plugins */,
+				ACDBE0A70C56D8CD00799AA0 /* Images */,
+				383DBEC80A6ABEA300685384 /* Credits.rtf */,
+				38666DA508E5087200071C56 /* Icons */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38030AC408F4A02600B2AC82 /* Smart List Editor */ = {
+			isa = PBXGroup;
+			children = (
+				38030AD508F4A37A00B2AC82 /* SmartListWindowDelegate.h */,
+				38030AD608F4A37A00B2AC82 /* SmartListWindowDelegate.m */,
+				38030ACC08F4A0BD00B2AC82 /* SmartListRuleView.h */,
+				38030ACD08F4A0BD00B2AC82 /* SmartListRuleView.m */,
+			);
+			path = "Smart List Editor";
+			sourceTree = "<group>";
+		};
+		38666DA508E5087200071C56 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		38A339AF09080C5700016FF0 /* CoreData Objects */ = {
+			isa = PBXGroup;
+			children = (
+				38A33A46090845FA00016FF0 /* ListManagedObject.h */,
+				38A33A47090845FA00016FF0 /* ListManagedObject.m */,
+				38CB899B08EF5761007981E6 /* SmartList.h */,
+				38CB899C08EF5761007981E6 /* SmartList.m */,
+				38D0C90109057D8300672AA7 /* RomManagedObject.h */,
+				38D0C90209057D8300672AA7 /* RomManagedObject.m */,
+			);
+			name = "CoreData Objects";
+			sourceTree = "<group>";
+		};
+		38F5751D08F7420F00119232 /* Array Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC2E63480C49C4500057E112 /* RomListArrayController.h */,
+				AC2E63490C49C4500057E112 /* RomListArrayController.m */,
+				38F5752F08F745EB00119232 /* ListListArrayController.h */,
+				38F5753008F745EB00119232 /* ListListArrayController.m */,
+			);
+			path = "Array Controllers";
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				770B37EC0679A11B001EADE2 /* Lesminni_DataModel.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		ACB112430C628977008DA933 /* ROM Parser */ = {
+			isa = PBXGroup;
+			children = (
+				ACB112440C628977008DA933 /* Formats */,
+				ACB112550C628977008DA933 /* NSData_CRC.h */,
+				ACB112560C628977008DA933 /* NSData_CRC.m */,
+				ACB112570C628977008DA933 /* ParseRomDelegate.h */,
+				ACB112580C628977008DA933 /* ParseRomDelegate.m */,
+				ACB112590C628977008DA933 /* RomFile.h */,
+				ACB1125A0C628977008DA933 /* RomFile.m */,
+				ACB1125B0C628977008DA933 /* RomFileReader.h */,
+				ACB1125C0C628977008DA933 /* RomFileReader.m */,
+			);
+			path = "ROM Parser";
+			sourceTree = "<group>";
+		};
+		ACB112440C628977008DA933 /* Formats */ = {
+			isa = PBXGroup;
+			children = (
+				ACB112450C628977008DA933 /* FDSReader.h */,
+				ACB112460C628977008DA933 /* FDSReader.m */,
+				ACB112470C628977008DA933 /* GameBoyReader.h */,
+				ACB112480C628977008DA933 /* GameBoyReader.m */,
+				ACB112490C628977008DA933 /* GBAReader.h */,
+				ACB1124A0C628977008DA933 /* GBAReader.m */,
+				ACB1124B0C628977008DA933 /* N64Reader.h */,
+				ACB1124C0C628977008DA933 /* N64Reader.m */,
+				ACB1124D0C628977008DA933 /* NDSReader.h */,
+				ACB1124E0C628977008DA933 /* NDSReader.m */,
+				ACB1124F0C628977008DA933 /* NintendoReader.h */,
+				ACB112500C628977008DA933 /* NintendoReader.m */,
+				ACB112510C628977008DA933 /* SuperNintendoReader.h */,
+				ACB112520C628977008DA933 /* SuperNintendoReader.m */,
+				ACB112530C628977008DA933 /* VirtualBoyReader.h */,
+				ACB112540C628977008DA933 /* VirtualBoyReader.m */,
+			);
+			path = Formats;
+			sourceTree = "<group>";
+		};
+		ACCC97A30E3545F300D24051 /* CopyNES */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC979A0E35450B00D24051 /* CopyNES.h */,
+				ACCC979B0E35450B00D24051 /* CopyNES.m */,
+				ACCC97A20E3545ED00D24051 /* ftd2xx.h */,
+				ACCC97CC0E35471F00D24051 /* WinTypes.h */,
+			);
+			name = CopyNES;
+			sourceTree = "<group>";
+		};
+		ACCC99AB0E3568D600D24051 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				ACCC99AC0E3568D600D24051 /* 103IN1.BIN */,
+				ACCC99AD0E3568D600D24051 /* 115IN1.BIN */,
+				ACCC99AE0E3568D600D24051 /* 117IN1.BIN */,
+				ACCC99AF0E3568D600D24051 /* 11IN1.BIN */,
+				ACCC99B00E3568D600D24051 /* 150IN1.BIN */,
+				ACCC99B10E3568D600D24051 /* 15IN1.BIN */,
+				ACCC99B20E3568D600D24051 /* 16IN1A.BIN */,
+				ACCC99B30E3568D600D24051 /* 1MIN1.BIN */,
+				ACCC99B40E3568D600D24051 /* 1MIN1A.BIN */,
+				ACCC99B50E3568D600D24051 /* 20IN1.BIN */,
+				ACCC99B60E3568D600D24051 /* 20IN1A.BIN */,
+				ACCC99B70E3568D600D24051 /* 210IN1.BIN */,
+				ACCC99B80E3568D600D24051 /* 255IN1.BIN */,
+				ACCC99B90E3568D600D24051 /* 42IN1.BIN */,
+				ACCC99BA0E3568D600D24051 /* 4IN1.BIN */,
+				ACCC99BB0E3568D600D24051 /* 52IN1.BIN */,
+				ACCC99BC0E3568D600D24051 /* 63IN1.BIN */,
+				ACCC99BD0E3568D600D24051 /* 700IN1.BIN */,
+				ACCC99BE0E3568D600D24051 /* 74LS374N.BIN */,
+				ACCC99BF0E3568D600D24051 /* 76IN1.BIN */,
+				ACCC99C00E3568D600D24051 /* 7IN1.BIN */,
+				ACCC99C10E3568D600D24051 /* 7IN1X.BIN */,
+				ACCC99C20E3568D600D24051 /* 800008.BIN */,
+				ACCC99C30E3568D600D24051 /* 800042.BIN */,
+				ACCC99C40E3568D600D24051 /* 8259B.BIN */,
+				ACCC99C50E3568D600D24051 /* 8259C.BIN */,
+				ACCC99C60E3568D600D24051 /* 8259D.BIN */,
+				ACCC99C70E3568D600D24051 /* 95IN1.BIN */,
+				ACCC99C80E3568D600D24051 /* 999IN1.BIN */,
+				ACCC99C90E3568D600D24051 /* A52.BIN */,
+				ACCC99CA0E3568D600D24051 /* ARK2.BIN */,
+				ACCC99CB0E3568D600D24051 /* AXROM.BIN */,
+				ACCC99CC0E3568D600D24051 /* BANKWTCH.BIN */,
+				ACCC99CD0E3568D600D24051 /* BIO.BIN */,
+				ACCC99CE0E3568D600D24051 /* BIO2.BIN */,
+				ACCC99CF0E3568D600D24051 /* BNROM.BIN */,
+				ACCC99D00E3568D600D24051 /* CALTRON.BIN */,
+				ACCC99D10E3568D600D24051 /* CAMERIC2.BIN */,
+				ACCC99D20E3568D600D24051 /* CAMERICA.BIN */,
+				ACCC99D30E3568D600D24051 /* CDREAMS.BIN */,
+				ACCC99D40E3568D600D24051 /* CHEETAH.BIN */,
+				ACCC99D50E3568D600D24051 /* CLEAR.BIN */,
+				ACCC99D60E3568D600D24051 /* CM017.BIN */,
+				ACCC99D70E3568D600D24051 /* CNRAM.BIN */,
+				ACCC99D80E3568D600D24051 /* CNROM.BIN */,
+				ACCC99D90E3568D600D24051 /* CONY1.BIN */,
+				ACCC99DA0E3568D600D24051 /* CONY2.BIN */,
+				ACCC99DB0E3568D600D24051 /* CPROM.BIN */,
+				ACCC99DC0E3568D600D24051 /* DD2.BIN */,
+				ACCC99DD0E3568D600D24051 /* DISK.BIN */,
+				ACCC99DE0E3568D600D24051 /* EWJ2.BIN */,
+				ACCC99DF0E3568D600D24051 /* EXRAM.BIN */,
+				ACCC99E00E3568D600D24051 /* EXROM.BIN */,
+				ACCC99E10E3568D600D24051 /* EXROMW.BIN */,
+				ACCC99E20E3568D600D24051 /* FAMILY.BIN */,
+				ACCC99E30E3568D600D24051 /* FME7.BIN */,
+				ACCC99E40E3568D600D24051 /* GARDN.BIN */,
+				ACCC99E50E3568D600D24051 /* GARSET.BIN */,
+				ACCC99E60E3568D600D24051 /* GARUP.BIN */,
+				ACCC99E70E3568D600D24051 /* GIRLFGHT.BIN */,
+				ACCC99E80E3568D600D24051 /* GNROM.BIN */,
+				ACCC99E90E3568D600D24051 /* HIK.BIN */,
+				ACCC99EA0E3568D600D24051 /* HIK4IN1B.BIN */,
+				ACCC99EB0E3568D600D24051 /* HKRAM.BIN */,
+				ACCC99EC0E3568D600D24051 /* HKROM.BIN */,
+				ACCC99ED0E3568D600D24051 /* HKROMW.BIN */,
+				ACCC99EE0E3568D600D24051 /* JF09.BIN */,
+				ACCC99EF0E3568D600D24051 /* JOVIAL.BIN */,
+				ACCC99F00E3568D600D24051 /* K3966.BIN */,
+				ACCC99F10E3568D600D24051 /* MARIO.BIN */,
+				ACCC99F20E3568D600D24051 /* MARIO15.BIN */,
+				ACCC99F30E3568D600D24051 /* MHROM.BIN */,
+				ACCC99F40E3568D600D24051 /* MICROBUG.BIN */,
+				ACCC99F50E3568D600D24051 /* MIMIC1.BIN */,
+				ACCC99F60E3568D600D24051 /* MIRROR.BIN */,
+				ACCC99F70E3568D600D24051 /* MMC5PLUG.BIN */,
+				ACCC99F80E3568D600D24051 /* MONTY.BIN */,
+				ACCC99F90E3568D600D24051 /* NAM109.BIN */,
+				ACCC99FA0E3568D600D24051 /* NAM118A.BIN */,
+				ACCC99FB0E3568D600D24051 /* NAMCO106.BIN */,
+				ACCC99FC0E3568D600D24051 /* NESCOPY.BIN */,
+				ACCC99FD0E3568D600D24051 /* NESCOPYN.BIN */,
+				ACCC99FE0E3568D600D24051 /* NINA001.BIN */,
+				ACCC99FF0E3568D600D24051 /* NINA0X.BIN */,
+				ACCC9A000E3568D600D24051 /* NROM.BIN */,
+				ACCC9A010E3568D600D24051 /* NROMX.BIN */,
+				ACCC9A020E3568D600D24051 /* NS03.BIN */,
+				ACCC9A030E3568D600D24051 /* NWC.BIN */,
+				ACCC9A040E3568D600D24051 /* PIR8.BIN */,
+				ACCC9A050E3568D600D24051 /* PIR8SMB3.BIN */,
+				ACCC9A060E3568D600D24051 /* POKEAHIN.BIN */,
+				ACCC9A070E3568D600D24051 /* POWERJ.BIN */,
+				ACCC9A080E3568D600D24051 /* PXROM.BIN */,
+				ACCC9A090E3568D600D24051 /* QJ.BIN */,
+				ACCC9A0A0E3568D600D24051 /* R4IN1.BIN */,
+				ACCC9A0B0E3568D600D24051 /* RACER.BIN */,
+				ACCC9A0C0E3568D600D24051 /* RAM.BIN */,
+				ACCC9A0D0E3568D600D24051 /* RAMBO1.BIN */,
+				ACCC9A0E0E3568D600D24051 /* RDUMP1.BIN */,
+				ACCC9A0F0E3568D600D24051 /* RDUMP2.BIN */,
+				ACCC9A100E3568D600D24051 /* REGTEST.BIN */,
+				ACCC9A110E3568D600D24051 /* SACHEN2.BIN */,
+				ACCC9A120E3568D600D24051 /* SACHEN3.BIN */,
+				ACCC9A130E3568D600D24051 /* SACHEN4.BIN */,
+				ACCC9A140E3568D600D24051 /* SACHEN5.BIN */,
+				ACCC9A150E3568D600D24051 /* SACHEN6.BIN */,
+				ACCC9A160E3568D600D24051 /* SACHEN7.BIN */,
+				ACCC9A170E3568D600D24051 /* SACHEN8.BIN */,
+				ACCC9A180E3568D600D24051 /* SACHEN9.BIN */,
+				ACCC9A190E3568D600D24051 /* SDK.BIN */,
+				ACCC9A1A0E3568D600D24051 /* SMB2JA.BIN */,
+				ACCC9A1B0E3568D600D24051 /* SMB2JC.BIN */,
+				ACCC9A1C0E3568D600D24051 /* STUDY.BIN */,
+				ACCC9A1D0E3568D600D24051 /* SUNSFT4.BIN */,
+				ACCC9A1E0E3568D600D24051 /* SUPERJ.BIN */,
+				ACCC9A1F0E3568D600D24051 /* SXRAM.BIN */,
+				ACCC9A200E3568D600D24051 /* SXROM.BIN */,
+				ACCC9A210E3568D600D24051 /* SXROMW.BIN */,
+				ACCC9A220E3568D600D24051 /* T3H53.BIN */,
+				ACCC9A230E3568D600D24051 /* TEKKEN.BIN */,
+				ACCC9A240E3568D600D24051 /* TEST.BIN */,
+				ACCC9A250E3568D600D24051 /* TEST2.BIN */,
+				ACCC9A260E3568D600D24051 /* TQROM.BIN */,
+				ACCC9A270E3568D600D24051 /* TXRAM.BIN */,
+				ACCC9A280E3568D600D24051 /* TXROM1.BIN */,
+				ACCC9A290E3568D600D24051 /* TXROMW.BIN */,
+				ACCC9A2A0E3568D600D24051 /* UNROM.BIN */,
+				ACCC9A2B0E3568D700D24051 /* UOROM.BIN */,
+				ACCC9A2C0E3568D700D24051 /* UXRAM.BIN */,
+				ACCC9A2D0E3568D700D24051 /* VRC3.BIN */,
+				ACCC9A2E0E3568D700D24051 /* VRC4.BIN */,
+				ACCC9A2F0E3568D700D24051 /* VRC6.BIN */,
+				ACCC9A300E3568D700D24051 /* VRC7.BIN */,
+			);
+			name = Plugins;
+			path = PLUGDONE;
+			sourceTree = "<group>";
+		};
+		ACDBE09B0C56AB1F00799AA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACB543D10C6613FB00DB5529 /* ListsTextCell.h */,
+				ACB543D20C6613FB00DB5529 /* ListsTextCell.m */,
+				AC72DD4C0C615824007EB387 /* ContentSplitView.h */,
+				AC72DD4D0C615824007EB387 /* ContentSplitView.m */,
+				38030AC408F4A02600B2AC82 /* Smart List Editor */,
+				385FDE0609045CB300C511B9 /* LesminniToolbarItem.h */,
+				385FDE0709045CB300C511B9 /* LesminniToolbarItem.m */,
+				3892A6A909013AF700FF72C8 /* SelectableTableView.h */,
+				3892A6AA09013AF700FF72C8 /* SelectableTableView.m */,
+				ACC411F40C602A6E00933288 /* ListsTableView.h */,
+				ACC411EE0C602A5800933288 /* ListsTableView.m */,
+				ACC4122C0C602FB400933288 /* ListsSplitView.m */,
+				ACC4122A0C602FB400933288 /* ListsSplitView.h */,
+				ACC412290C602FB400933288 /* KFSplitView.m */,
+				ACC4122B0C602FB400933288 /* KFSplitView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACDBE0A70C56D8CD00799AA0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AC1A4FCB0C62387500C47D19 /* splitview-bar.png */,
+				AC1A4FCC0C62387500C47D19 /* splitview-dot.png */,
+				AC3CEE510C5D640200C76162 /* list-goomba.png */,
+				ACC411960C60046200933288 /* list-cd.png */,
+				ACC411970C60046200933288 /* list-favorite.png */,
+				ACC411980C60046200933288 /* list-internet.png */,
+				ACC411990C60046200933288 /* list-library.png */,
+				ACC4119A0C60046200933288 /* list-pack.png */,
+				AC3CEE520C5D640200C76162 /* list-kirby.png */,
+				AC3CEE530C5D640200C76162 /* list-mario.png */,
+				ACDBE0870C56AAFB00799AA0 /* edit-smartlist.png */,
+				ACDBE0880C56AAFB00799AA0 /* Lesminni.icns */,
+				ACDBE0890C56AAFB00799AA0 /* list-small.png */,
+				ACDBE08A0C56AAFB00799AA0 /* new-list.png */,
+				ACDBE08B0C56AAFB00799AA0 /* new-rom.png */,
+				ACDBE08C0C56AAFB00799AA0 /* new-smartlist.png */,
+				ACDBE08D0C56AAFB00799AA0 /* preferences.png */,
+				ACDBE08E0C56AAFB00799AA0 /* remove-list.png */,
+				ACDBE08F0C56AAFB00799AA0 /* remove-rom.png */,
+				ACDBE0900C56AAFB00799AA0 /* smartlist-small.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Lesminni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38328ED308859AFD00091C9B /* Build configuration list for PBXNativeTarget "Lesminni" */;
+			buildPhases = (
+				ACB1130D0C628E21008DA933 /* Copy Bundle Frameworks */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				383291510A03F07700C98833 /* Copy Files */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lesminni;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Lesminni;
+			productReference = 8D1107320486CEB800E47090 /* Lesminni.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 38328ED708859AFD00091C9B /* Build configuration list for PBXProject "Lesminni" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Danish,
+				Spanish,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Lesminni */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Lesminni */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				383DBEC90A6ABEA300685384 /* Credits.rtf in Resources */,
+				ACDBE0910C56AAFB00799AA0 /* edit-smartlist.png in Resources */,
+				ACDBE0920C56AAFB00799AA0 /* Lesminni.icns in Resources */,
+				ACDBE0930C56AAFB00799AA0 /* list-small.png in Resources */,
+				ACDBE0940C56AAFB00799AA0 /* new-list.png in Resources */,
+				ACDBE0950C56AAFB00799AA0 /* new-rom.png in Resources */,
+				ACDBE0960C56AAFB00799AA0 /* new-smartlist.png in Resources */,
+				ACDBE0970C56AAFB00799AA0 /* preferences.png in Resources */,
+				ACDBE0980C56AAFB00799AA0 /* remove-list.png in Resources */,
+				ACDBE0990C56AAFB00799AA0 /* remove-rom.png in Resources */,
+				ACDBE09A0C56AAFB00799AA0 /* smartlist-small.png in Resources */,
+				AC3CEE540C5D640200C76162 /* list-goomba.png in Resources */,
+				AC3CEE550C5D640200C76162 /* list-kirby.png in Resources */,
+				AC3CEE560C5D640200C76162 /* list-mario.png in Resources */,
+				ACC4119B0C60046200933288 /* list-cd.png in Resources */,
+				ACC4119C0C60046200933288 /* list-favorite.png in Resources */,
+				ACC4119D0C60046200933288 /* list-internet.png in Resources */,
+				ACC4119E0C60046200933288 /* list-library.png in Resources */,
+				ACC4119F0C60046200933288 /* list-pack.png in Resources */,
+				AC1A4FCD0C62387500C47D19 /* splitview-bar.png in Resources */,
+				AC1A4FCE0C62387500C47D19 /* splitview-dot.png in Resources */,
+				ACCC9A310E3568D700D24051 /* 103IN1.BIN in Resources */,
+				ACCC9A320E3568D700D24051 /* 115IN1.BIN in Resources */,
+				ACCC9A330E3568D700D24051 /* 117IN1.BIN in Resources */,
+				ACCC9A340E3568D700D24051 /* 11IN1.BIN in Resources */,
+				ACCC9A350E3568D700D24051 /* 150IN1.BIN in Resources */,
+				ACCC9A360E3568D700D24051 /* 15IN1.BIN in Resources */,
+				ACCC9A370E3568D700D24051 /* 16IN1A.BIN in Resources */,
+				ACCC9A380E3568D700D24051 /* 1MIN1.BIN in Resources */,
+				ACCC9A390E3568D700D24051 /* 1MIN1A.BIN in Resources */,
+				ACCC9A3A0E3568D700D24051 /* 20IN1.BIN in Resources */,
+				ACCC9A3B0E3568D700D24051 /* 20IN1A.BIN in Resources */,
+				ACCC9A3C0E3568D700D24051 /* 210IN1.BIN in Resources */,
+				ACCC9A3D0E3568D700D24051 /* 255IN1.BIN in Resources */,
+				ACCC9A3E0E3568D700D24051 /* 42IN1.BIN in Resources */,
+				ACCC9A3F0E3568D700D24051 /* 4IN1.BIN in Resources */,
+				ACCC9A400E3568D700D24051 /* 52IN1.BIN in Resources */,
+				ACCC9A410E3568D700D24051 /* 63IN1.BIN in Resources */,
+				ACCC9A420E3568D700D24051 /* 700IN1.BIN in Resources */,
+				ACCC9A430E3568D700D24051 /* 74LS374N.BIN in Resources */,
+				ACCC9A440E3568D700D24051 /* 76IN1.BIN in Resources */,
+				ACCC9A450E3568D700D24051 /* 7IN1.BIN in Resources */,
+				ACCC9A460E3568D700D24051 /* 7IN1X.BIN in Resources */,
+				ACCC9A470E3568D700D24051 /* 800008.BIN in Resources */,
+				ACCC9A480E3568D700D24051 /* 800042.BIN in Resources */,
+				ACCC9A490E3568D700D24051 /* 8259B.BIN in Resources */,
+				ACCC9A4A0E3568D700D24051 /* 8259C.BIN in Resources */,
+				ACCC9A4B0E3568D700D24051 /* 8259D.BIN in Resources */,
+				ACCC9A4C0E3568D700D24051 /* 95IN1.BIN in Resources */,
+				ACCC9A4D0E3568D700D24051 /* 999IN1.BIN in Resources */,
+				ACCC9A4E0E3568D700D24051 /* A52.BIN in Resources */,
+				ACCC9A4F0E3568D700D24051 /* ARK2.BIN in Resources */,
+				ACCC9A500E3568D700D24051 /* AXROM.BIN in Resources */,
+				ACCC9A510E3568D700D24051 /* BANKWTCH.BIN in Resources */,
+				ACCC9A520E3568D700D24051 /* BIO.BIN in Resources */,
+				ACCC9A530E3568D700D24051 /* BIO2.BIN in Resources */,
+				ACCC9A540E3568D700D24051 /* BNROM.BIN in Resources */,
+				ACCC9A550E3568D700D24051 /* CALTRON.BIN in Resources */,
+				ACCC9A560E3568D700D24051 /* CAMERIC2.BIN in Resources */,
+				ACCC9A570E3568D700D24051 /* CAMERICA.BIN in Resources */,
+				ACCC9A580E3568D700D24051 /* CDREAMS.BIN in Resources */,
+				ACCC9A590E3568D700D24051 /* CHEETAH.BIN in Resources */,
+				ACCC9A5A0E3568D700D24051 /* CLEAR.BIN in Resources */,
+				ACCC9A5B0E3568D700D24051 /* CM017.BIN in Resources */,
+				ACCC9A5C0E3568D700D24051 /* CNRAM.BIN in Resources */,
+				ACCC9A5D0E3568D700D24051 /* CNROM.BIN in Resources */,
+				ACCC9A5E0E3568D700D24051 /* CONY1.BIN in Resources */,
+				ACCC9A5F0E3568D700D24051 /* CONY2.BIN in Resources */,
+				ACCC9A600E3568D700D24051 /* CPROM.BIN in Resources */,
+				ACCC9A610E3568D700D24051 /* DD2.BIN in Resources */,
+				ACCC9A620E3568D700D24051 /* DISK.BIN in Resources */,
+				ACCC9A630E3568D700D24051 /* EWJ2.BIN in Resources */,
+				ACCC9A640E3568D700D24051 /* EXRAM.BIN in Resources */,
+				ACCC9A650E3568D700D24051 /* EXROM.BIN in Resources */,
+				ACCC9A660E3568D700D24051 /* EXROMW.BIN in Resources */,
+				ACCC9A670E3568D700D24051 /* FAMILY.BIN in Resources */,
+				ACCC9A680E3568D700D24051 /* FME7.BIN in Resources */,
+				ACCC9A690E3568D700D24051 /* GARDN.BIN in Resources */,
+				ACCC9A6A0E3568D700D24051 /* GARSET.BIN in Resources */,
+				ACCC9A6B0E3568D700D24051 /* GARUP.BIN in Resources */,
+				ACCC9A6C0E3568D700D24051 /* GIRLFGHT.BIN in Resources */,
+				ACCC9A6D0E3568D700D24051 /* GNROM.BIN in Resources */,
+				ACCC9A6E0E3568D700D24051 /* HIK.BIN in Resources */,
+				ACCC9A6F0E3568D700D24051 /* HIK4IN1B.BIN in Resources */,
+				ACCC9A700E3568D700D24051 /* HKRAM.BIN in Resources */,
+				ACCC9A710E3568D700D24051 /* HKROM.BIN in Resources */,
+				ACCC9A720E3568D700D24051 /* HKROMW.BIN in Resources */,
+				ACCC9A730E3568D700D24051 /* JF09.BIN in Resources */,
+				ACCC9A740E3568D700D24051 /* JOVIAL.BIN in Resources */,
+				ACCC9A750E3568D700D24051 /* K3966.BIN in Resources */,
+				ACCC9A760E3568D700D24051 /* MARIO.BIN in Resources */,
+				ACCC9A770E3568D700D24051 /* MARIO15.BIN in Resources */,
+				ACCC9A780E3568D700D24051 /* MHROM.BIN in Resources */,
+				ACCC9A790E3568D700D24051 /* MICROBUG.BIN in Resources */,
+				ACCC9A7A0E3568D700D24051 /* MIMIC1.BIN in Resources */,
+				ACCC9A7B0E3568D700D24051 /* MIRROR.BIN in Resources */,
+				ACCC9A7C0E3568D700D24051 /* MMC5PLUG.BIN in Resources */,
+				ACCC9A7D0E3568D700D24051 /* MONTY.BIN in Resources */,
+				ACCC9A7E0E3568D700D24051 /* NAM109.BIN in Resources */,
+				ACCC9A7F0E3568D700D24051 /* NAM118A.BIN in Resources */,
+				ACCC9A800E3568D700D24051 /* NAMCO106.BIN in Resources */,
+				ACCC9A810E3568D700D24051 /* NESCOPY.BIN in Resources */,
+				ACCC9A820E3568D700D24051 /* NESCOPYN.BIN in Resources */,
+				ACCC9A830E3568D700D24051 /* NINA001.BIN in Resources */,
+				ACCC9A840E3568D700D24051 /* NINA0X.BIN in Resources */,
+				ACCC9A850E3568D700D24051 /* NROM.BIN in Resources */,
+				ACCC9A860E3568D700D24051 /* NROMX.BIN in Resources */,
+				ACCC9A870E3568D700D24051 /* NS03.BIN in Resources */,
+				ACCC9A880E3568D700D24051 /* NWC.BIN in Resources */,
+				ACCC9A890E3568D700D24051 /* PIR8.BIN in Resources */,
+				ACCC9A8A0E3568D700D24051 /* PIR8SMB3.BIN in Resources */,
+				ACCC9A8B0E3568D700D24051 /* POKEAHIN.BIN in Resources */,
+				ACCC9A8C0E3568D700D24051 /* POWERJ.BIN in Resources */,
+				ACCC9A8D0E3568D700D24051 /* PXROM.BIN in Resources */,
+				ACCC9A8E0E3568D700D24051 /* QJ.BIN in Resources */,
+				ACCC9A8F0E3568D700D24051 /* R4IN1.BIN in Resources */,
+				ACCC9A900E3568D700D24051 /* RACER.BIN in Resources */,
+				ACCC9A910E3568D700D24051 /* RAM.BIN in Resources */,
+				ACCC9A920E3568D700D24051 /* RAMBO1.BIN in Resources */,
+				ACCC9A930E3568D700D24051 /* RDUMP1.BIN in Resources */,
+				ACCC9A940E3568D700D24051 /* RDUMP2.BIN in Resources */,
+				ACCC9A950E3568D700D24051 /* REGTEST.BIN in Resources */,
+				ACCC9A960E3568D700D24051 /* SACHEN2.BIN in Resources */,
+				ACCC9A970E3568D700D24051 /* SACHEN3.BIN in Resources */,
+				ACCC9A980E3568D700D24051 /* SACHEN4.BIN in Resources */,
+				ACCC9A990E3568D700D24051 /* SACHEN5.BIN in Resources */,
+				ACCC9A9A0E3568D700D24051 /* SACHEN6.BIN in Resources */,
+				ACCC9A9B0E3568D700D24051 /* SACHEN7.BIN in Resources */,
+				ACCC9A9C0E3568D700D24051 /* SACHEN8.BIN in Resources */,
+				ACCC9A9D0E3568D700D24051 /* SACHEN9.BIN in Resources */,
+				ACCC9A9E0E3568D700D24051 /* SDK.BIN in Resources */,
+				ACCC9A9F0E3568D700D24051 /* SMB2JA.BIN in Resources */,
+				ACCC9AA00E3568D700D24051 /* SMB2JC.BIN in Resources */,
+				ACCC9AA10E3568D700D24051 /* STUDY.BIN in Resources */,
+				ACCC9AA20E3568D700D24051 /* SUNSFT4.BIN in Resources */,
+				ACCC9AA30E3568D700D24051 /* SUPERJ.BIN in Resources */,
+				ACCC9AA40E3568D700D24051 /* SXRAM.BIN in Resources */,
+				ACCC9AA50E3568D700D24051 /* SXROM.BIN in Resources */,
+				ACCC9AA60E3568D700D24051 /* SXROMW.BIN in Resources */,
+				ACCC9AA70E3568D700D24051 /* T3H53.BIN in Resources */,
+				ACCC9AA80E3568D700D24051 /* TEKKEN.BIN in Resources */,
+				ACCC9AA90E3568D700D24051 /* TEST.BIN in Resources */,
+				ACCC9AAA0E3568D700D24051 /* TEST2.BIN in Resources */,
+				ACCC9AAB0E3568D700D24051 /* TQROM.BIN in Resources */,
+				ACCC9AAC0E3568D700D24051 /* TXRAM.BIN in Resources */,
+				ACCC9AAD0E3568D700D24051 /* TXROM1.BIN in Resources */,
+				ACCC9AAE0E3568D700D24051 /* TXROMW.BIN in Resources */,
+				ACCC9AAF0E3568D700D24051 /* UNROM.BIN in Resources */,
+				ACCC9AB00E3568D700D24051 /* UOROM.BIN in Resources */,
+				ACCC9AB10E3568D700D24051 /* UXRAM.BIN in Resources */,
+				ACCC9AB20E3568D700D24051 /* VRC3.BIN in Resources */,
+				ACCC9AB30E3568D700D24051 /* VRC4.BIN in Resources */,
+				ACCC9AB40E3568D700D24051 /* VRC6.BIN in Resources */,
+				ACCC9AB50E3568D700D24051 /* VRC7.BIN in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* LesminniAppDelegate.m in Sources */,
+				3816417D0ACC045900DBFC14 /* Lesminni_DataModel.xcdatamodel in Sources */,
+				38CB899D08EF5761007981E6 /* SmartList.m in Sources */,
+				38030ACE08F4A0BD00B2AC82 /* SmartListRuleView.m in Sources */,
+				38030AD708F4A37A00B2AC82 /* SmartListWindowDelegate.m in Sources */,
+				38F5753108F745EB00119232 /* ListListArrayController.m in Sources */,
+				3892A6AB09013AF700FF72C8 /* SelectableTableView.m in Sources */,
+				385FDE0809045CB300C511B9 /* LesminniToolbarItem.m in Sources */,
+				38D0C90309057D8300672AA7 /* RomManagedObject.m in Sources */,
+				38A33A48090845FA00016FF0 /* ListManagedObject.m in Sources */,
+				AC2E634D0C49C4500057E112 /* RomListArrayController.m in Sources */,
+				ACDBE0A30C56ABE600799AA0 /* ThreadWorker.m in Sources */,
+				ACC411EF0C602A5800933288 /* ListsTableView.m in Sources */,
+				ACC4122D0C602FB400933288 /* KFSplitView.m in Sources */,
+				ACC412300C602FB400933288 /* ListsSplitView.m in Sources */,
+				AC72DD510C615824007EB387 /* ContentSplitView.m in Sources */,
+				ACB1125E0C628977008DA933 /* FDSReader.m in Sources */,
+				ACB112600C628977008DA933 /* GameBoyReader.m in Sources */,
+				ACB112620C628977008DA933 /* GBAReader.m in Sources */,
+				ACB112640C628977008DA933 /* N64Reader.m in Sources */,
+				ACB112660C628977008DA933 /* NDSReader.m in Sources */,
+				ACB112680C628977008DA933 /* NintendoReader.m in Sources */,
+				ACB1126A0C628977008DA933 /* SuperNintendoReader.m in Sources */,
+				ACB1126C0C628977008DA933 /* VirtualBoyReader.m in Sources */,
+				ACB1126E0C628977008DA933 /* NSData_CRC.m in Sources */,
+				ACB112700C628977008DA933 /* ParseRomDelegate.m in Sources */,
+				ACB112720C628977008DA933 /* RomFile.m in Sources */,
+				ACB112740C628977008DA933 /* RomFileReader.m in Sources */,
+				ACB543D40C6613FB00DB5529 /* ListsTextCell.m in Sources */,
+				ACCC979C0E35450B00D24051 /* CopyNES.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		383DBEC80A6ABEA300685384 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EDC7EE08EADEC400414B3D /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38328ED408859AFD00091C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(NATIVE_ARCH)",
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = NO;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Lesminni_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				PRODUCT_NAME = Lesminni;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		38328ED508859AFD00091C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Lesminni_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_SIGN_COMPARE = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				PRODUCT_NAME = Lesminni;
+				SDKROOT = macosx10.5;
+				STRIP_INSTALLED_PRODUCT = NO;
+				UNSTRIPPED_PRODUCT = "$(inherited)";
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		38328ED608859AFD00091C9B /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Lesminni_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Lesminni;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		38328ED808859AFD00091C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_VARIANTS = normal;
+				COPY_PHASE_STRIP = NO;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_SIGN_COMPARE = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx10.5;
+				VERSIONING_SYSTEM = "apple-generic";
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		38328ED908859AFD00091C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_DEBUGGING_SYMBOLS = default;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx10.5;
+				UNSTRIPPED_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		38328EDA08859AFD00091C9B /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_VARIANTS = normal;
+				GENERATE_PROFILING_CODE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx10.5;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38328ED308859AFD00091C9B /* Build configuration list for PBXNativeTarget "Lesminni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38328ED408859AFD00091C9B /* Debug */,
+				38328ED508859AFD00091C9B /* Release */,
+				38328ED608859AFD00091C9B /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		38328ED708859AFD00091C9B /* Build configuration list for PBXProject "Lesminni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38328ED808859AFD00091C9B /* Debug */,
+				38328ED908859AFD00091C9B /* Release */,
+				38328EDA08859AFD00091C9B /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

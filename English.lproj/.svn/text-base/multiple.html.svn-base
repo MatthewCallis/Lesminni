@@ -1,0 +1,14 @@
+<html>
+<head>
+<link rel="stylesheet" href="-csslink-" type="text/css" />
+</head>
+<body>
+<div class="multiple-message">
+	<p>Multiple books selected. Please select a book from the list below to view its details.</p>
+	
+	<div class="book-list">
+		-booklist-
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+{
+    IBClasses = (
+        {
+            CLASS = ContentSplitView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bottomSubview = id; }; 
+            SUPERCLASS = KFSplitView; 
+        }, 
+        {
+            CLASS = DBListSplitView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bottomSubview = id; }; 
+            SUPERCLASS = KFSplitView; 
+        }, 
+        {
+            CLASS = DBSourceSplitView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {leftSubview = id; rightSubview = id; }; 
+            SUPERCLASS = KFSplitView; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = KFSplitView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {kfDelegate = id; }; 
+            SUPERCLASS = NSSplitView; 
+        }, 
+        {
+            ACTIONS = {
+                cancelSmartList = id; 
+                checkFolderAgainstDatList = id; 
+                clearSpotlightIndex = id; 
+                editSmartList = id; 
+                getInfoWindow = id; 
+                importDatList = id; 
+                newList = id; 
+                newRom = id; 
+                newRomFromFile = id; 
+                newSmartList = id; 
+                save = id; 
+                saveAction = id; 
+                saveSmartList = id; 
+                selectListsTable = id; 
+                selectRomsTable = id; 
+                toggleColumn = id; 
+                updateSpotlightIndex = id; 
+                writeClrMameProDat = id; 
+            }; 
+            CLASS = LesminniAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                collectionArrayController = NSArrayController; 
+                columnCRC32 = NSTableColumn; 
+                columnMD5 = NSTableColumn; 
+                columnSHA1 = NSTableColumn; 
+                columnSize = NSTableColumn; 
+                columnTitle = NSTableColumn; 
+                columnsMenu = NSMenu; 
+                contentSplitView = ContentSplitView; 
+                contentView = NSView; 
+                contentViewPlaceholder = NSView; 
+                fileProgress = NSProgressIndicator; 
+                fileProgressView = NSView; 
+                fileProgressWindow = NSWindow; 
+                infoWindow = NSWindow; 
+                listMenu = NSMenu; 
+                listsTable = ListsTableView; 
+                listsView = NSView; 
+                listsViewPlaceholder = NSView; 
+                mainWindow = NSWindow; 
+                romArrayController = NSArrayController; 
+                romsTable = SelectableTableView; 
+                searchField = NSView; 
+                searchTextField = NSSearchField; 
+                selectedRom = NSObjectController; 
+                smartListEditorWindow = NSWindow; 
+                splitView = ListsSplitView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = ListListArrayController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSArrayController; 
+        }, 
+        {
+            CLASS = ListsSplitView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {leftSubview = id; rightSubview = id; }; 
+            SUPERCLASS = KFSplitView; 
+        }, 
+        {CLASS = ListsTableView; LANGUAGE = ObjC; SUPERCLASS = SelectableTableView; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            CLASS = RomListArrayController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {listController = NSArrayController; }; 
+            SUPERCLASS = NSArrayController; 
+        }, 
+        {
+            ACTIONS = {checkForUpdates = id; }; 
+            CLASS = SUUpdater; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = SelectableTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {
+            CLASS = SmartListRuleView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {field = NSPopUpButton; operation = NSPopUpButton; value = NSTextField; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            CLASS = SmartListWindowDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {joiner = id; rulesBox = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

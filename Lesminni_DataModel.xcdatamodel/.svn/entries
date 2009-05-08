@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2006-07-25T13:31:43.536022Z"
+   url="https://svn.sourceforge.net/svnroot/books-macosx/Books/Books_DataModel.xcdatamodel"
+   last-author="br284"
+   kind="dir"
+   repos="https://svn.sourceforge.net/svnroot/books-macosx"
+   revision="45"/>
+<entry
+   committed-rev="1"
+   name="elements"
+   text-time="2006-08-10T11:49:36.000000Z"
+   committed-date="2006-07-25T13:31:43.536022Z"
+   checksum="3446e63e51fbde4a7de1b7d38c017b3b"
+   last-author="br284"
+   kind="file"
+   prop-time="2006-08-10T11:49:25.000000Z"/>
+<entry
+   committed-rev="1"
+   name="layout"
+   text-time="2006-08-10T11:49:38.000000Z"
+   committed-date="2006-07-25T13:31:43.536022Z"
+   checksum="c52c517aa96268060d5ced5bf8a51142"
+   last-author="br284"
+   kind="file"
+   prop-time="2006-08-10T11:49:26.000000Z"/>
+</wc-entries>
