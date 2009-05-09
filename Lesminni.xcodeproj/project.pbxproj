@@ -13,9 +13,6 @@
 		383DBEC90A6ABEA300685384 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 383DBEC80A6ABEA300685384 /* Credits.rtf */; };
 		385FDE0809045CB300C511B9 /* LesminniToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 385FDE0709045CB300C511B9 /* LesminniToolbarItem.m */; };
 		3892A6AB09013AF700FF72C8 /* SelectableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3892A6AA09013AF700FF72C8 /* SelectableTableView.m */; };
-		38A33A48090845FA00016FF0 /* ListManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A33A47090845FA00016FF0 /* ListManagedObject.m */; };
-		38CB899D08EF5761007981E6 /* SmartList.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CB899C08EF5761007981E6 /* SmartList.m */; };
-		38D0C90309057D8300672AA7 /* RomManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D0C90209057D8300672AA7 /* RomManagedObject.m */; };
 		38F5753108F745EB00119232 /* ListListArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F5753008F745EB00119232 /* ListListArrayController.m */; };
 		77C8280E06725ACE000B614F /* LesminniAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* LesminniAppDelegate.m */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
@@ -28,6 +25,10 @@
 		AC3CEE550C5D640200C76162 /* list-kirby.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3CEE520C5D640200C76162 /* list-kirby.png */; };
 		AC3CEE560C5D640200C76162 /* list-mario.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3CEE530C5D640200C76162 /* list-mario.png */; };
 		AC72DD510C615824007EB387 /* ContentSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC72DD4D0C615824007EB387 /* ContentSplitView.m */; };
+		AC8AC5980FB4FCCC0081B70E /* ListManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8AC5910FB4FCCC0081B70E /* ListManagedObject.m */; };
+		AC8AC5990FB4FCCC0081B70E /* UserDefinedField.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8AC5930FB4FCCC0081B70E /* UserDefinedField.m */; };
+		AC8AC59A0FB4FCCC0081B70E /* RomManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8AC5950FB4FCCC0081B70E /* RomManagedObject.m */; };
+		AC8AC59B0FB4FCCC0081B70E /* SmartList.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8AC5970FB4FCCC0081B70E /* SmartList.m */; };
 		ACB1125E0C628977008DA933 /* FDSReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB112460C628977008DA933 /* FDSReader.m */; };
 		ACB112600C628977008DA933 /* GameBoyReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB112480C628977008DA933 /* GameBoyReader.m */; };
 		ACB112620C628977008DA933 /* GBAReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1124A0C628977008DA933 /* GBAReader.m */; };
@@ -239,12 +240,6 @@
 		385FDE0709045CB300C511B9 /* LesminniToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LesminniToolbarItem.m; sourceTree = "<group>"; };
 		3892A6A909013AF700FF72C8 /* SelectableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectableTableView.h; sourceTree = "<group>"; };
 		3892A6AA09013AF700FF72C8 /* SelectableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectableTableView.m; sourceTree = "<group>"; };
-		38A33A46090845FA00016FF0 /* ListManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListManagedObject.h; sourceTree = "<group>"; };
-		38A33A47090845FA00016FF0 /* ListManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListManagedObject.m; sourceTree = "<group>"; };
-		38CB899B08EF5761007981E6 /* SmartList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartList.h; sourceTree = "<group>"; };
-		38CB899C08EF5761007981E6 /* SmartList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartList.m; sourceTree = "<group>"; };
-		38D0C90109057D8300672AA7 /* RomManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomManagedObject.h; sourceTree = "<group>"; };
-		38D0C90209057D8300672AA7 /* RomManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RomManagedObject.m; sourceTree = "<group>"; };
 		38EDC7EE08EADEC400414B3D /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		38F5752F08F745EB00119232 /* ListListArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListListArrayController.h; sourceTree = "<group>"; };
 		38F5753008F745EB00119232 /* ListListArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListListArrayController.m; sourceTree = "<group>"; };
@@ -263,6 +258,14 @@
 		AC3CEE530C5D640200C76162 /* list-mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-mario.png"; path = "Resources/list-mario.png"; sourceTree = "<group>"; };
 		AC72DD4C0C615824007EB387 /* ContentSplitView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ContentSplitView.h; sourceTree = SOURCE_ROOT; };
 		AC72DD4D0C615824007EB387 /* ContentSplitView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ContentSplitView.m; sourceTree = SOURCE_ROOT; };
+		AC8AC5900FB4FCCC0081B70E /* ListManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListManagedObject.h; sourceTree = "<group>"; };
+		AC8AC5910FB4FCCC0081B70E /* ListManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListManagedObject.m; sourceTree = "<group>"; };
+		AC8AC5920FB4FCCC0081B70E /* UserDefinedField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefinedField.h; sourceTree = "<group>"; };
+		AC8AC5930FB4FCCC0081B70E /* UserDefinedField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefinedField.m; sourceTree = "<group>"; };
+		AC8AC5940FB4FCCC0081B70E /* RomManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomManagedObject.h; sourceTree = "<group>"; };
+		AC8AC5950FB4FCCC0081B70E /* RomManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RomManagedObject.m; sourceTree = "<group>"; };
+		AC8AC5960FB4FCCC0081B70E /* SmartList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartList.h; sourceTree = "<group>"; };
+		AC8AC5970FB4FCCC0081B70E /* SmartList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartList.m; sourceTree = "<group>"; };
 		ACB112450C628977008DA933 /* FDSReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FDSReader.h; sourceTree = "<group>"; };
 		ACB112460C628977008DA933 /* FDSReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FDSReader.m; sourceTree = "<group>"; };
 		ACB112470C628977008DA933 /* GameBoyReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GameBoyReader.h; sourceTree = "<group>"; };
@@ -579,12 +582,14 @@
 		38A339AF09080C5700016FF0 /* CoreData Objects */ = {
 			isa = PBXGroup;
 			children = (
-				38A33A46090845FA00016FF0 /* ListManagedObject.h */,
-				38A33A47090845FA00016FF0 /* ListManagedObject.m */,
-				38CB899B08EF5761007981E6 /* SmartList.h */,
-				38CB899C08EF5761007981E6 /* SmartList.m */,
-				38D0C90109057D8300672AA7 /* RomManagedObject.h */,
-				38D0C90209057D8300672AA7 /* RomManagedObject.m */,
+				AC8AC5900FB4FCCC0081B70E /* ListManagedObject.h */,
+				AC8AC5910FB4FCCC0081B70E /* ListManagedObject.m */,
+				AC8AC5920FB4FCCC0081B70E /* UserDefinedField.h */,
+				AC8AC5930FB4FCCC0081B70E /* UserDefinedField.m */,
+				AC8AC5940FB4FCCC0081B70E /* RomManagedObject.h */,
+				AC8AC5950FB4FCCC0081B70E /* RomManagedObject.m */,
+				AC8AC5960FB4FCCC0081B70E /* SmartList.h */,
+				AC8AC5970FB4FCCC0081B70E /* SmartList.m */,
 			);
 			name = "CoreData Objects";
 			sourceTree = "<group>";
@@ -1069,14 +1074,11 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				77C8280E06725ACE000B614F /* LesminniAppDelegate.m in Sources */,
 				3816417D0ACC045900DBFC14 /* Lesminni_DataModel.xcdatamodel in Sources */,
-				38CB899D08EF5761007981E6 /* SmartList.m in Sources */,
 				38030ACE08F4A0BD00B2AC82 /* SmartListRuleView.m in Sources */,
 				38030AD708F4A37A00B2AC82 /* SmartListWindowDelegate.m in Sources */,
 				38F5753108F745EB00119232 /* ListListArrayController.m in Sources */,
 				3892A6AB09013AF700FF72C8 /* SelectableTableView.m in Sources */,
 				385FDE0809045CB300C511B9 /* LesminniToolbarItem.m in Sources */,
-				38D0C90309057D8300672AA7 /* RomManagedObject.m in Sources */,
-				38A33A48090845FA00016FF0 /* ListManagedObject.m in Sources */,
 				AC2E634D0C49C4500057E112 /* RomListArrayController.m in Sources */,
 				ACDBE0A30C56ABE600799AA0 /* ThreadWorker.m in Sources */,
 				ACC411EF0C602A5800933288 /* ListsTableView.m in Sources */,
@@ -1097,6 +1099,10 @@
 				ACB112740C628977008DA933 /* RomFileReader.m in Sources */,
 				ACB543D40C6613FB00DB5529 /* ListsTextCell.m in Sources */,
 				ACCC979C0E35450B00D24051 /* CopyNES.m in Sources */,
+				AC8AC5980FB4FCCC0081B70E /* ListManagedObject.m in Sources */,
+				AC8AC5990FB4FCCC0081B70E /* UserDefinedField.m in Sources */,
+				AC8AC59A0FB4FCCC0081B70E /* RomManagedObject.m in Sources */,
+				AC8AC59B0FB4FCCC0081B70E /* SmartList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1125,10 +1131,7 @@
 		38328ED408859AFD00091C9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					"$(NATIVE_ARCH)",
-					ppc,
-				);
+				ARCHS = "$(NATIVE_ARCH)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

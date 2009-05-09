@@ -298,7 +298,10 @@ char TxBuffer[64];
 -(BOOL) dumpCart;{
 	NSString *selectedPlugin;
 	NSString *fileExtension;
-	NSString *outputFilename;
+//	NSString *outputFilename;
+	NSSavePanel *selectOutput = [NSSavePanel savePanel];
+//	NSString *resultUrl;
+
 //	int dtype = 2;
 	int rbyte = 0;
 	int rcount = 0;
@@ -313,8 +316,6 @@ char TxBuffer[64];
 //	FILE *CRC;
 //	FILE *DATA;
 
-	NSSavePanel *selectOutput = [NSSavePanel savePanel];
-	NSString *resultUrl;
 	int fileDialogResult;
 	int alertResult = NSAlertAlternateReturn;
 

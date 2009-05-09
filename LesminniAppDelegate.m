@@ -20,12 +20,11 @@
 	[columnWidths insertObject:[NSNumber numberWithFloat: 200.0] atIndex:3];
 	[columnWidths insertObject:[NSNumber numberWithFloat: 160.0] atIndex:4];
 
-
 	NSMutableArray *savedSortDescriptors = [NSMutableArray array];
 	NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"title" ascending:YES];
 	[savedSortDescriptors addObject:sortDescriptor];
 	[sortDescriptor release];
-	
+
 	[[NSUserDefaults standardUserDefaults] registerDefaults:
 		[NSDictionary dictionaryWithObjectsAndKeys:
 			nil, @"lastSearch",
@@ -97,17 +96,17 @@
 #pragma mark -
 #pragma mark Custom Cell data delegate methods
 
-- (NSImage*) iconForCell: (ListsTextCell*) cell data: (ListManagedObject*) data {
-	NSImage *newImage = [[[NSImage alloc] initWithData:[data getIcon]] autorelease];
+- (NSImage*)iconForCell:(ListsTextCell*)cell data:(ListManagedObject*)data{
+	NSImage *newImage = [[[NSImage alloc] initWithData:[data icon]] autorelease];
 	return newImage;
 }
 
-- (NSString*) primaryTextForCell: (ListsTextCell*) cell data: (ListManagedObject*) data {
-	return [data getName];
+- (NSString*)primaryTextForCell: (ListsTextCell*) cell data: (ListManagedObject*)data{
+	return [data name];
 }
 
-- (NSString*) secondaryTextForCell: (ListsTextCell*) cell data: (ListManagedObject*) data {
-	return [data getRomCount];
+- (NSString*)secondaryTextForCell: (ListsTextCell*) cell data: (ListManagedObject*)data{
+	return [data romCount];
 }
 
 - (NSObject*) dataElementForCell: (ListsTextCell*) cell{
@@ -343,7 +342,9 @@
 
 - (IBAction)save:(id)sender{
 	NSError *error = nil;
-	if(![[self managedObjectContext] save:&error]) [[NSApplication sharedApplication] presentError:error];
+	if(![[self managedObjectContext] save:&error]){
+		[[NSApplication sharedApplication] presentError:error];
+	}
 }
 
 - (NSApplicationTerminateReply) applicationShouldTerminate: (NSApplication *) sender{
@@ -598,8 +599,8 @@
 	}
 
 	ListManagedObject *list = [[collectionArrayController selectedObjects] objectAtIndex:0];
-//	NSLog(@"%i", [[list getRoms] count]);
-	NSArray *theRoms = [list getRoms];
+//	NSLog(@"%i", [[list roms] count]);
+	NSArray *theRoms = [list roms];
 
 	NSEnumerator *romsEnumerator = [theRoms objectEnumerator];
 	RomManagedObject *currentRom;
@@ -608,7 +609,7 @@
 		NSEnumerator *filesEnumerator = [parsedRomsArray objectEnumerator];
 		RomFile *currentFile;
 		while(currentFile = [filesEnumerator nextObject]){
-			if([[currentRom getCRC] isEqualToString:[currentFile fileCRC32]]){
+			if([[currentRom crc32] isEqualToString:[currentFile fileCRC32]]){
 //				NSLog(@"Match! %@ == %@", [currentRom getTitle], [currentFile filename]);
 //				[currentRom setValue:[currentFile fileSHA1] forKey:@"sha1"];
 //				[currentRom setValue:[currentFile fileMD5] forKey:@"md5"];
@@ -656,10 +657,7 @@
 		[[NSApplication sharedApplication] beginSheet:fileProgressWindow modalForWindow:mainWindow modalDelegate:self didEndSelector:nil contextInfo:NULL];
 
 		// Start work on new thread
-		_datThread = [[ThreadWorker workOn:self
-						withSelector:@selector(datImportTask:worker:)
-						withObject:thingsIllNeed
-						didEndSelector:@selector(importDatFinished:)] retain];
+		_datThread = [[ThreadWorker workOn:self withSelector:@selector(datImportTask:worker:) withObject:thingsIllNeed didEndSelector:@selector(importDatFinished:)] retain];
 
 		// All done!
 		datLocation = nil;
@@ -834,7 +832,7 @@
 		ListManagedObject *list = [[collectionArrayController selectedObjects] objectAtIndex:0];
 		NSMutableString *romBunch = [[NSMutableString alloc] init];
 
-		if([[list getRoms] count] == 0) return;
+		if([[list roms] count] == 0) return;
 
 //		Build the ClrMamePro Header
 		[romBunch appendString: @"clrmamepro (\n"];
@@ -845,7 +843,7 @@
 		[romBunch appendString: @")\n\n"];
 
 		NSSortDescriptor *sort = [[NSSortDescriptor alloc] initWithKey:@"title" ascending:YES];
-		NSArray *listArray = [[list getRoms] sortedArrayUsingDescriptors:[NSArray arrayWithObject: sort]];
+		NSArray *listArray = [[list roms] sortedArrayUsingDescriptors:[NSArray arrayWithObject: sort]];
 		[sort release];
 
 		NSEnumerator *filesEnumerator = [listArray objectEnumerator];
@@ -909,7 +907,7 @@
 
 //		while((fileDialogResult == NSOKButton) && (alertResult == NSAlertDefaultReturn));
 		if(fileDialogResult == NSOKButton){
-			resultUrl = [[sp directory] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.dat", [list getName]] ];
+			resultUrl = [[sp directory] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.dat", [list name]] ];
 //			NSLog(@"resultUrl: %@", resultUrl);
 		}
 		else return;
@@ -918,7 +916,7 @@
 
 		NSMutableString *writeStatus = [[NSMutableString alloc] init];
 //		Try to write the file
-		if([romBunch writeToFile:resultUrl encoding:NSUTF8StringEncoding atomically:NO error:nil])
+		if([romBunch writeToFile:resultUrl atomically:NO encoding:NSUTF8StringEncoding error:nil])
 			[writeStatus setString:NSLocalizedString(@"Write was successfull!", nil)];
 		else
 			[writeStatus setString:NSLocalizedString(@"Write Failed!", nil)];
@@ -954,7 +952,7 @@
 			RomManagedObject *object = [[RomManagedObject alloc] initWithEntity:desc insertIntoManagedObjectContext:context];
 
 			[object setValue:NSLocalizedString(@"New ROM", nil) forKey:@"title"];
-			[object setValue:[list getName] forKey:@"listName"];
+			[object setValue:[list name] forKey:@"listName"];
 			[object setValue:@"" forKey:@"haveTheRom"];
 			[context insertObject:object];
 
@@ -1005,7 +1003,7 @@
 
 				[context lock];
 				RomManagedObject *object = [[RomManagedObject alloc] initWithEntity:desc insertIntoManagedObjectContext:context];
-				[object setValue:[list getName] forKey:@"listName"];
+				[object setValue:[list name] forKey:@"listName"];
 				[object setValue:[currentFile cartType] forKey:@"cartType"];
 				[object setValue:[currentFile country] forKey:@"country"];
 				[object setValue:[currentFile fileCRC32] forKey:@"crc32"];
@@ -1188,10 +1186,8 @@
 
 	if([objects count] == 1){
 		ListManagedObject *list = [objects objectAtIndex:0];
-
 		if([list isKindOfClass:[SmartList class]]){
-			[[smartListEditorWindow delegate] setPredicate:[((SmartList *)list) getPredicate]];
-
+			[[smartListEditorWindow delegate] setPredicateString:[((SmartList *)list) predicateString]];
 			[[NSApplication sharedApplication] beginSheet:smartListEditorWindow modalForWindow:mainWindow modalDelegate:self didEndSelector:nil contextInfo:NULL];
 		}
 	}
@@ -1201,13 +1197,13 @@
 	NSArray * objects = [collectionArrayController selectedObjects];
 
 	if([objects count] == 1){
-		ListManagedObject * list = [objects objectAtIndex:0];
+		ListManagedObject *list = [objects objectAtIndex:0];
 
 		[list willChangeValueForKey:@"items"];
 
 		if([list isKindOfClass:[SmartList class]]){
-			NSPredicate * p = [[smartListEditorWindow delegate] getPredicate];
-			[((SmartList *)list) setPredicate:p];
+			NSString *p = [[smartListEditorWindow delegate] predicateString];
+			[((SmartList *)list) setPredicateString:p];
 		}
 
 		[list didChangeValueForKey:@"items"];
@@ -1294,11 +1290,11 @@
 	return YES;
 }
 
-- (void) selectListsTable: (id) sender{
+- (void)selectListsTable:(id)sender{
 	[mainWindow makeFirstResponder:listsTable];
 }
 
-- (void) selectRomsTable: (id) sender{
+- (void)selectRomsTable:(id)sender{
 	[mainWindow makeFirstResponder:romsTable];
 }
 
@@ -1367,7 +1363,7 @@
 	ListManagedObject *listObject;
 	while(listObject = [listEnumerator nextObject]){
 		if(![listObject isKindOfClass:[SmartList class]]){
-			NSEnumerator *romEnumerator = [[listObject getRoms] objectEnumerator];
+			NSEnumerator *romEnumerator = [[listObject roms] objectEnumerator];
 			RomManagedObject *romObject;
 			while(romObject = [romEnumerator nextObject]){
 				[romObject writeSpotlightFile];

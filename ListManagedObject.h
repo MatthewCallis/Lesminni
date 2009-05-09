@@ -1,26 +1,34 @@
+//
+//  ListManagedObject.h
+//  Lesminni
+//
+//  Created by Matthew Callis on 5/8/09.
+//  Copyright 2009 eludevisibility.org. All rights reserved.
+//
 
-#import <Cocoa/Cocoa.h>
+#import <CoreData/CoreData.h>
 
-@interface ListManagedObject : NSManagedObject{
-	NSData *iconData;
-}
+@class RomManagedObject;
 
-- (NSData *) getIcon;
-- (void) setIcon: (NSData*) icon;
+@interface ListManagedObject :  NSManagedObject{}
 
-- (NSArray *) getRoms;
-- (NSString *) getRomCount;
+@property (retain) NSString * predicateString;
+@property (retain) NSString * version;
+@property (retain) NSString * name;
+@property (retain) NSString * author;
+@property (retain) NSData * icon;
+@property (retain) NSSet* items;
 
-- (BOOL) getCanAdd;
-- (void) setCanAdd: (BOOL) canAdd;
-
-- (NSString *) getName;
-- (void) setName:(NSString*)name;
-
-- (NSString *) getAuthor;
-- (void) setAuthor:(NSString*)author;
-
-- (NSString *) getVersion;
-- (void) setVersion:(NSString*)version;
+- (NSString *)romCount;
+- (NSArray *)roms;
 
 @end
+
+@interface ListManagedObject (CoreDataGeneratedAccessors)
+- (void)addItemsObject:(RomManagedObject *)value;
+- (void)removeItemsObject:(RomManagedObject *)value;
+- (void)addItems:(NSSet *)value;
+- (void)removeItems:(NSSet *)value;
+
+@end
+

@@ -1,20 +1,20 @@
+//
+//  SmartList.h
+//  Lesminni
+//
+//  Created by Matthew Callis on 5/8/09.
+//  Copyright 2009 eludevisibility.org. All rights reserved.
+//
 
-#import <Cocoa/Cocoa.h>
+#import <CoreData/CoreData.h>
 #import "ListManagedObject.h"
 
-@interface SmartList : ListManagedObject{
-	NSPredicate *predicate;
 
-	NSSet *listItems;
-	NSDate *nextFetch;
+@interface SmartList :  ListManagedObject  
+{
 }
 
-- (NSPredicate *) getPredicate;
-- (void) setPredicate:(NSPredicate *) newPredicate; 
-
-- (NSData *) getIcon;
-
-- (BOOL) getCanAdd;
-- (void) setCanAdd: (BOOL) canAdd;
 
 @end
+
+
