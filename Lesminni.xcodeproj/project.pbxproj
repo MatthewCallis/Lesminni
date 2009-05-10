@@ -24,6 +24,7 @@
 		AC3CEE540C5D640200C76162 /* list-goomba.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3CEE510C5D640200C76162 /* list-goomba.png */; };
 		AC3CEE550C5D640200C76162 /* list-kirby.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3CEE520C5D640200C76162 /* list-kirby.png */; };
 		AC3CEE560C5D640200C76162 /* list-mario.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3CEE530C5D640200C76162 /* list-mario.png */; };
+		AC4B0A2A0FB7054F00362C46 /* libftd2xx.0.1.0.dylib in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = ACCC97A60E35460F00D24051 /* libftd2xx.0.1.0.dylib */; };
 		AC72DD510C615824007EB387 /* ContentSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC72DD4D0C615824007EB387 /* ContentSplitView.m */; };
 		AC8AC5980FB4FCCC0081B70E /* ListManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8AC5910FB4FCCC0081B70E /* ListManagedObject.m */; };
 		AC8AC5990FB4FCCC0081B70E /* UserDefinedField.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8AC5930FB4FCCC0081B70E /* UserDefinedField.m */; };
@@ -218,6 +219,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				AC4B0A2A0FB7054F00362C46 /* libftd2xx.0.1.0.dylib in Copy Bundle Frameworks */,
 				ACB113130C628E50008DA933 /* FFArchive.framework in Copy Bundle Frameworks */,
 			);
 			name = "Copy Bundle Frameworks";
@@ -1279,13 +1281,14 @@
 		38328ED908859AFD00091C9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = "$(NATIVE_ARCH)";
 				COPY_PHASE_STRIP = YES;
 				GCC_DEBUGGING_SYMBOLS = default;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
@@ -1293,7 +1296,7 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx10.5;
 				UNSTRIPPED_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
